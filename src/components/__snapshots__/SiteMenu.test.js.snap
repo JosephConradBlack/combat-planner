@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteMenu renders 1`] = `
+<div
+  className="ui large inverted pointing secondary menu"
+>
+  <div
+    className="ui container"
+  >
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      Combat Planner
+    </div>
+  </div>
+</div>
+`;

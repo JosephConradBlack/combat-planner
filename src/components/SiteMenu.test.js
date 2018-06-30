@@ -3,13 +3,13 @@ import { create } from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 
 import theme from '../theme';
-import CombatPlannerContainer from './CombatPlannerContainer';
+import SiteMenu from './SiteMenu';
 
-describe('CombatPlannerContainer', () => {
-  it('renders ', () => {
+describe('SiteMenu', () => {
+  it('renders', () => {
     const component = create(
       <ThemeProvider theme={theme}>
-        <CombatPlannerContainer />
+        <SiteMenu />
       </ThemeProvider>
     );
 

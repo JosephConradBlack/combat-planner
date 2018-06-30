@@ -2,6 +2,32 @@
 
 exports[`CombatPlannerContainer renders  1`] = `
 <div>
-  CombatPlannerContainer
+  <div
+    className="ui inverted vertical center aligned segment sc-bdVaJa lasqMc"
+  >
+    <div
+      className="ui large inverted pointing secondary menu"
+    >
+      <div
+        className="ui container"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          Combat Planner
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui container"
+    >
+      <h1
+        className="ui inverted header sc-bwzfXH cKpNQC"
+      >
+        Combat Planner
+      </h1>
+    </div>
+  </div>
 </div>
 `;
