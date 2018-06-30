@@ -22,7 +22,7 @@ To get it running on your machine simply run the commands below.
 
 ### Authors
 
-- Joseph Black - _Initial author_ - [JosephConradBlack.com](htps://josephconradblack.com)
+- Joseph Black - _Initial author_ - [JosephConradBlack.com](https://josephconradblack.com)
 
 ### Licence
 
