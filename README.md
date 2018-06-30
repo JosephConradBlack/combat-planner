@@ -26,4 +26,4 @@ To get it running on your machine simply run the commands below.
 
 ### Licence
 
-This project is licensed under the GNU Affero General Public License v3.0 - see the [LICENSE.md](../blob/master/LICENSE) file for details
+This project is licensed under the GNU Affero General Public License v3.0 - see the [LICENSE](LICENSE) file for details
