@@ -57,12 +57,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Player 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -70,11 +71,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -103,12 +125,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Player 2
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -116,11 +139,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -149,12 +193,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Orc 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -162,11 +207,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -195,12 +261,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Goblin 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -208,11 +275,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -241,12 +329,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Goblin 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -254,11 +343,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -287,12 +397,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Goblin 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -300,11 +411,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -333,12 +465,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Goblin 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -346,11 +479,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -379,12 +533,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Goblin 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -392,11 +547,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -425,12 +601,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Goblin 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -438,11 +615,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -471,12 +669,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Goblin 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -484,11 +683,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>
@@ -517,12 +737,13 @@ exports[`CombatPlannerContainer renders  1`] = `
                 </div>
               </div>
               <div
-                className="header sc-EHOje hPnmzI"
+                className="header sc-gzVnrw JWpAx"
               >
                 Goblin 1
               </div>
               <div
-                className="extra sc-bZQynM bNeRWe"
+                className="extra sc-bZQynM iEOshs"
+                position={1}
               >
                 <div>
                   <div
@@ -530,11 +751,32 @@ exports[`CombatPlannerContainer renders  1`] = `
                   >
                     <i
                       aria-hidden="true"
-                      className="red heart outline big icon sc-bxivhb QiKGv"
+                      className="red heart outline big icon sc-bxivhb iQXIBe"
                     />
                     <div
-                      className="sc-ifAKCX kSoFTZ"
+                      className="sc-ifAKCX kOPaAK"
                       color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra sc-bZQynM fmGHdG"
+                position={0}
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="grey shield big icon sc-bxivhb iQXIBe"
+                    />
+                    <div
+                      className="sc-ifAKCX ipPYkA"
+                      color="grey"
                     >
                       0
                     </div>

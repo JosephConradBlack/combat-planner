@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextIcon renders with color 1`] = `
+exports[`TextIcon renders with different color 1`] = `
 <div>
   <div
     className="extra sc-bdVaJa cdKNHG"
   >
     <i
       aria-hidden="true"
-      className="blue heart outline big icon sc-bwzfXH cXPuzX"
+      className="blue heart outline big icon sc-bwzfXH gNTOrh"
     />
     <div
-      className="sc-htpNat gnxApo"
+      className="sc-htpNat gmYomR"
       color="blue"
     >
       0
@@ -19,20 +19,39 @@ exports[`TextIcon renders with color 1`] = `
 </div>
 `;
 
-exports[`TextIcon renders with icon 1`] = `
+exports[`TextIcon renders with different icon 1`] = `
 <div>
   <div
     className="extra sc-bdVaJa cdKNHG"
   >
     <i
       aria-hidden="true"
-      className="red shield big icon sc-bwzfXH cXPuzX"
+      className="red shield big icon sc-bwzfXH gNTOrh"
     />
     <div
-      className="sc-htpNat iPQVHr"
+      className="sc-htpNat cByMRF"
       color="red"
     >
       0
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextIcon renders with different number 1`] = `
+<div>
+  <div
+    className="extra sc-bdVaJa cdKNHG"
+  >
+    <i
+      aria-hidden="true"
+      className="red heart outline big icon sc-bwzfXH gNTOrh"
+    />
+    <div
+      className="sc-htpNat cByMRF"
+      color="red"
+    >
+      4
     </div>
   </div>
 </div>
@@ -45,32 +64,13 @@ exports[`TextIcon renders with no props 1`] = `
   >
     <i
       aria-hidden="true"
-      className="red heart outline big icon sc-bwzfXH cXPuzX"
+      className="red heart outline big icon sc-bwzfXH gNTOrh"
     />
     <div
-      className="sc-htpNat iPQVHr"
+      className="sc-htpNat cByMRF"
       color="red"
     >
       0
-    </div>
-  </div>
-</div>
-`;
-
-exports[`TextIcon renders with number 1`] = `
-<div>
-  <div
-    className="extra sc-bdVaJa cdKNHG"
-  >
-    <i
-      aria-hidden="true"
-      className="red heart outline big icon sc-bwzfXH cXPuzX"
-    />
-    <div
-      className="sc-htpNat iPQVHr"
-      color="red"
-    >
-      4
     </div>
   </div>
 </div>

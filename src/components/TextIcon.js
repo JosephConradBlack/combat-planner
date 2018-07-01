@@ -15,6 +15,7 @@ const StyledIcon = styled(Icon)`
   &&& {
     position: absolute;
     left: 0;
+    opacity: 0.8;
   }
 `;
 
@@ -24,6 +25,7 @@ const StyledText = styled.div`
     top: 3px;
     left: 40%;
     color: ${props => props.color};
+    font-weight: 600;
   }
 `;
 

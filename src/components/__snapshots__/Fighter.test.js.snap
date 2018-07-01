@@ -20,12 +20,13 @@ exports[`Fighter renders with fighter 1`] = `
         </div>
       </div>
       <div
-        className="header sc-bxivhb bYOrRR"
+        className="header sc-EHOje hPnmzI"
       >
         Fighter
       </div>
       <div
-        className="extra sc-ifAKCX kAHmWX"
+        className="extra sc-ifAKCX fCitBk"
+        position={1}
       >
         <div>
           <div
@@ -33,11 +34,32 @@ exports[`Fighter renders with fighter 1`] = `
           >
             <i
               aria-hidden="true"
-              className="red heart outline big icon sc-bwzfXH cXPuzX"
+              className="red heart outline big icon sc-bwzfXH gNTOrh"
             />
             <div
-              className="sc-htpNat iPQVHr"
+              className="sc-htpNat cByMRF"
               color="red"
+            >
+              0
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="extra sc-ifAKCX gxUpRL"
+        position={0}
+      >
+        <div>
+          <div
+            className="extra sc-bdVaJa cdKNHG"
+          >
+            <i
+              aria-hidden="true"
+              className="grey shield big icon sc-bwzfXH gNTOrh"
+            />
+            <div
+              className="sc-htpNat iZbbcA"
+              color="grey"
             >
               0
             </div>
@@ -60,10 +82,14 @@ exports[`Fighter renders with no props 1`] = `
       className="content"
     >
       <div
-        className="header"
-      />
+        className="extra"
+      >
+        <div
+          className="ui left floated header"
+        />
+      </div>
       <div
-        className="header"
+        className="header sc-EHOje hPnmzI"
       />
     </div>
   </div>
