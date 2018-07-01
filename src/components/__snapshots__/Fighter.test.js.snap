@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fighter renders with fighter 1`] = `
+<div
+  className="ui basic segment sc-bdVaJa eHQWUv"
+>
+  <div
+    className="ui container sc-bwzfXH dnVPVd"
+  >
+    <div
+      className="ui segments"
+    />
+  </div>
+</div>
+`;
+
+exports[`Fighter renders with no props 1`] = `
+<div
+  className="ui basic segment sc-bdVaJa eHQWUv"
+>
+  <div
+    className="ui container sc-bwzfXH dnVPVd"
+  >
+    <div
+      className="ui segments"
+    />
+  </div>
+</div>
+`;

@@ -29,5 +29,259 @@ exports[`CombatPlannerContainer renders  1`] = `
       </h1>
     </div>
   </div>
+  <div
+    className="ui basic segment sc-htpNat cqACzS"
+  >
+    <div
+      className="ui container sc-bxivhb hIaRfc"
+    >
+      <div
+        className="ui segments"
+      >
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                1
+              </div>
+              <div
+                className="header"
+              >
+                Fighter Name
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
