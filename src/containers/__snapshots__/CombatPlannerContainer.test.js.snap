@@ -30,10 +30,10 @@ exports[`CombatPlannerContainer renders  1`] = `
     </div>
   </div>
   <div
-    className="ui basic segment sc-htpNat cqACzS"
+    className="ui basic segment sc-htoDjs cLBMIL"
   >
     <div
-      className="ui container sc-bxivhb hIaRfc"
+      className="ui container sc-dnqmqq gHNiFF"
     >
       <div
         className="ui segments"
@@ -48,58 +48,38 @@ exports[`CombatPlannerContainer renders  1`] = `
               className="content"
             >
               <div
-                className="header"
+                className="extra"
               >
-                1
+                <div
+                  className="ui left floated header"
+                >
+                  1
+                </div>
               </div>
               <div
-                className="header"
+                className="header sc-EHOje hPnmzI"
               >
-                Fighter Name
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ui segment"
-        >
-          <div
-            className="item"
-          >
-            <div
-              className="content"
-            >
-              <div
-                className="header"
-              >
-                1
+                Player 1
               </div>
               <div
-                className="header"
+                className="extra sc-bZQynM bNeRWe"
               >
-                Fighter Name
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ui segment"
-        >
-          <div
-            className="item"
-          >
-            <div
-              className="content"
-            >
-              <div
-                className="header"
-              >
-                1
-              </div>
-              <div
-                className="header"
-              >
-                Fighter Name
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -114,58 +94,38 @@ exports[`CombatPlannerContainer renders  1`] = `
               className="content"
             >
               <div
-                className="header"
+                className="extra"
               >
-                1
+                <div
+                  className="ui left floated header"
+                >
+                  2
+                </div>
               </div>
               <div
-                className="header"
+                className="header sc-EHOje hPnmzI"
               >
-                Fighter Name
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ui segment"
-        >
-          <div
-            className="item"
-          >
-            <div
-              className="content"
-            >
-              <div
-                className="header"
-              >
-                1
+                Player 2
               </div>
               <div
-                className="header"
+                className="extra sc-bZQynM bNeRWe"
               >
-                Fighter Name
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ui segment"
-        >
-          <div
-            className="item"
-          >
-            <div
-              className="content"
-            >
-              <div
-                className="header"
-              >
-                1
-              </div>
-              <div
-                className="header"
-              >
-                Fighter Name
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -180,58 +140,38 @@ exports[`CombatPlannerContainer renders  1`] = `
               className="content"
             >
               <div
-                className="header"
+                className="extra"
               >
-                1
+                <div
+                  className="ui left floated header"
+                >
+                  3
+                </div>
               </div>
               <div
-                className="header"
+                className="header sc-EHOje hPnmzI"
               >
-                Fighter Name
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ui segment"
-        >
-          <div
-            className="item"
-          >
-            <div
-              className="content"
-            >
-              <div
-                className="header"
-              >
-                1
+                Orc 1
               </div>
               <div
-                className="header"
+                className="extra sc-bZQynM bNeRWe"
               >
-                Fighter Name
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="ui segment"
-        >
-          <div
-            className="item"
-          >
-            <div
-              className="content"
-            >
-              <div
-                className="header"
-              >
-                1
-              </div>
-              <div
-                className="header"
-              >
-                Fighter Name
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -246,14 +186,38 @@ exports[`CombatPlannerContainer renders  1`] = `
               className="content"
             >
               <div
-                className="header"
+                className="extra"
               >
-                1
+                <div
+                  className="ui left floated header"
+                >
+                  4
+                </div>
               </div>
               <div
-                className="header"
+                className="header sc-EHOje hPnmzI"
               >
-                Fighter Name
+                Goblin 1
+              </div>
+              <div
+                className="extra sc-bZQynM bNeRWe"
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -268,14 +232,314 @@ exports[`CombatPlannerContainer renders  1`] = `
               className="content"
             >
               <div
-                className="header"
+                className="extra"
               >
-                1
+                <div
+                  className="ui left floated header"
+                >
+                  5
+                </div>
               </div>
               <div
-                className="header"
+                className="header sc-EHOje hPnmzI"
               >
-                Fighter Name
+                Goblin 1
+              </div>
+              <div
+                className="extra sc-bZQynM bNeRWe"
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="extra"
+              >
+                <div
+                  className="ui left floated header"
+                >
+                  6
+                </div>
+              </div>
+              <div
+                className="header sc-EHOje hPnmzI"
+              >
+                Goblin 1
+              </div>
+              <div
+                className="extra sc-bZQynM bNeRWe"
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="extra"
+              >
+                <div
+                  className="ui left floated header"
+                >
+                  7
+                </div>
+              </div>
+              <div
+                className="header sc-EHOje hPnmzI"
+              >
+                Goblin 1
+              </div>
+              <div
+                className="extra sc-bZQynM bNeRWe"
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="extra"
+              >
+                <div
+                  className="ui left floated header"
+                >
+                  8
+                </div>
+              </div>
+              <div
+                className="header sc-EHOje hPnmzI"
+              >
+                Goblin 1
+              </div>
+              <div
+                className="extra sc-bZQynM bNeRWe"
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="extra"
+              >
+                <div
+                  className="ui left floated header"
+                >
+                  9
+                </div>
+              </div>
+              <div
+                className="header sc-EHOje hPnmzI"
+              >
+                Goblin 1
+              </div>
+              <div
+                className="extra sc-bZQynM bNeRWe"
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="extra"
+              >
+                <div
+                  className="ui left floated header"
+                >
+                  10
+                </div>
+              </div>
+              <div
+                className="header sc-EHOje hPnmzI"
+              >
+                Goblin 1
+              </div>
+              <div
+                className="extra sc-bZQynM bNeRWe"
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ui segment"
+        >
+          <div
+            className="item"
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="extra"
+              >
+                <div
+                  className="ui left floated header"
+                >
+                  11
+                </div>
+              </div>
+              <div
+                className="header sc-EHOje hPnmzI"
+              >
+                Goblin 1
+              </div>
+              <div
+                className="extra sc-bZQynM bNeRWe"
+              >
+                <div>
+                  <div
+                    className="extra sc-htpNat fSoQxP"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="red heart outline big icon sc-bxivhb QiKGv"
+                    />
+                    <div
+                      className="sc-ifAKCX kSoFTZ"
+                      color="red"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

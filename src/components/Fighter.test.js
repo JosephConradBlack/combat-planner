@@ -3,7 +3,7 @@ import { create } from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 
 import theme from '../theme';
-import Fighter from './FighterList';
+import Fighter from './Fighter';
 
 describe('Fighter', () => {
   it('renders with no props', () => {
@@ -18,7 +18,10 @@ describe('Fighter', () => {
   });
 
   it('renders with fighter', () => {
-    const item = {};
+    const item = {
+      id: 1,
+      name: 'Fighter'
+    };
     const component = create(
       <ThemeProvider theme={theme}>
         <Fighter item={item} />

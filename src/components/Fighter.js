@@ -1,16 +1,54 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Segment, Item, List } from 'semantic-ui-react';
+import styled from 'styled-components';
+import { Segment, Item, Header, Icon } from 'semantic-ui-react';
 
-const Fighter = props => {
+import TextIcon from './TextIcon';
+
+const HeaderContainer = styled(Item.Header)`
+  &&& {
+    display: inline-block;
+  }
+`;
+
+const IconWrapper = styled(Item.Extra)`
+  &&& {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+  }
+`;
+
+const StyledIcon = styled(TextIcon)`
+  &&& {
+    position: relative;
+  }
+`;
+
+const getFighter = (index, item) => (
+  <Item.Content>
+    <Item.Extra>
+      <Header floated="left">{index + 1}</Header>
+    </Item.Extra>
+    <HeaderContainer>{item.name}</HeaderContainer>
+    <IconWrapper>
+      <StyledIcon />
+    </IconWrapper>
+  </Item.Content>
+);
+
+const getEmptyFighter = () => (
+  <Item.Content>
+    <Item.Header />
+    <Item.Header />
+  </Item.Content>
+);
+
+const Fighter = ({ index, item }) => {
   return (
     <Segment>
-      <Item>
-        <Item.Content>
-          <Item.Header>1</Item.Header>
-          <Item.Header>Fighter Name</Item.Header>
-        </Item.Content>
-      </Item>
+      <Item>{item ? getFighter(index, item) : getEmptyFighter()}</Item>
     </Segment>
   );
 };

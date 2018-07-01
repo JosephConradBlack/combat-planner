@@ -2,10 +2,10 @@
 
 exports[`FighterList renders with empty items array 1`] = `
 <div
-  className="ui basic segment sc-bdVaJa eHQWUv"
+  className="ui basic segment sc-bZQynM gXFCxG"
 >
   <div
-    className="ui container sc-bwzfXH dnVPVd"
+    className="ui container sc-gzVnrw dlvNYg"
   >
     <div
       className="ui segments"
@@ -16,10 +16,10 @@ exports[`FighterList renders with empty items array 1`] = `
 
 exports[`FighterList renders with no props 1`] = `
 <div
-  className="ui basic segment sc-bdVaJa eHQWUv"
+  className="ui basic segment sc-bZQynM gXFCxG"
 >
   <div
-    className="ui container sc-bwzfXH dnVPVd"
+    className="ui container sc-gzVnrw dlvNYg"
   >
     <div
       className="ui segments"
@@ -30,10 +30,10 @@ exports[`FighterList renders with no props 1`] = `
 
 exports[`FighterList renders with two items 1`] = `
 <div
-  className="ui basic segment sc-bdVaJa eHQWUv"
+  className="ui basic segment sc-bZQynM gXFCxG"
 >
   <div
-    className="ui container sc-bwzfXH dnVPVd"
+    className="ui container sc-gzVnrw dlvNYg"
   >
     <div
       className="ui segments"
@@ -48,14 +48,38 @@ exports[`FighterList renders with two items 1`] = `
             className="content"
           >
             <div
-              className="header"
+              className="extra"
             >
-              1
+              <div
+                className="ui left floated header"
+              >
+                1
+              </div>
             </div>
             <div
-              className="header"
+              className="header sc-bxivhb bYOrRR"
             >
-              Fighter Name
+              Name
+            </div>
+            <div
+              className="extra sc-ifAKCX kAHmWX"
+            >
+              <div>
+                <div
+                  className="extra sc-bdVaJa cdKNHG"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="red heart outline big icon sc-bwzfXH cXPuzX"
+                  />
+                  <div
+                    className="sc-htpNat iPQVHr"
+                    color="red"
+                  >
+                    0
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

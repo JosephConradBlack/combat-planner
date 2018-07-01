@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Container, Segment, List } from 'semantic-ui-react';
+import { Container, Segment } from 'semantic-ui-react';
 
 import Fighter from './Fighter';
 
@@ -18,7 +18,9 @@ const StyledContainer = styled(Container)`
 `;
 
 const getItems = items => {
-  return items.map((item, index) => <Fighter key={item.id} item={item} />);
+  return items.map((item, index) => (
+    <Fighter key={item.id} index={index} item={item} />
+  ));
 };
 
 const FighterList = ({ items }) => {
