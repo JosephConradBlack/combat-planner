@@ -2,105 +2,81 @@
 
 exports[`FighterList renders with empty items array 1`] = `
 <div
-  className="ui basic segment sc-bZQynM gXFCxG"
->
-  <div
-    className="ui container sc-gzVnrw ezFWMb"
-  >
-    <div
-      className="ui segments"
-    />
-  </div>
-</div>
+  className="ui segments sc-bZQynM iAxYMN"
+/>
 `;
 
 exports[`FighterList renders with no props 1`] = `
 <div
-  className="ui basic segment sc-bZQynM gXFCxG"
->
-  <div
-    className="ui container sc-gzVnrw ezFWMb"
-  >
-    <div
-      className="ui segments"
-    />
-  </div>
-</div>
+  className="ui segments sc-bZQynM iAxYMN"
+/>
 `;
 
 exports[`FighterList renders with two items 1`] = `
 <div
-  className="ui basic segment sc-bZQynM gXFCxG"
+  className="ui segments sc-bZQynM iAxYMN"
 >
   <div
-    className="ui container sc-gzVnrw ezFWMb"
+    className="ui segment"
   >
     <div
-      className="ui segments"
+      className="item"
     >
       <div
-        className="ui segment"
+        className="content"
       >
         <div
-          className="item"
+          className="extra"
         >
           <div
-            className="content"
+            className="ui left floated header"
           >
+            1
+          </div>
+        </div>
+        <div
+          className="header sc-EHOje hPnmzI"
+        >
+          Name
+        </div>
+        <div
+          className="extra sc-ifAKCX fCitBk"
+          position={1}
+        >
+          <div>
             <div
-              className="extra"
+              className="extra sc-bdVaJa cdKNHG"
             >
+              <i
+                aria-hidden="true"
+                className="red heart outline big icon sc-bwzfXH gNTOrh"
+              />
               <div
-                className="ui left floated header"
+                className="sc-htpNat cByMRF"
+                color="red"
               >
-                1
+                0
               </div>
             </div>
+          </div>
+        </div>
+        <div
+          className="extra sc-ifAKCX gxUpRL"
+          position={0}
+        >
+          <div>
             <div
-              className="header sc-EHOje hPnmzI"
+              className="extra sc-bdVaJa cdKNHG"
             >
-              Name
-            </div>
-            <div
-              className="extra sc-ifAKCX fCitBk"
-              position={1}
-            >
-              <div>
-                <div
-                  className="extra sc-bdVaJa cdKNHG"
-                >
-                  <i
-                    aria-hidden="true"
-                    className="red heart outline big icon sc-bwzfXH gNTOrh"
-                  />
-                  <div
-                    className="sc-htpNat cByMRF"
-                    color="red"
-                  >
-                    0
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="extra sc-ifAKCX gxUpRL"
-              position={0}
-            >
-              <div>
-                <div
-                  className="extra sc-bdVaJa cdKNHG"
-                >
-                  <i
-                    aria-hidden="true"
-                    className="grey shield big icon sc-bwzfXH gNTOrh"
-                  />
-                  <div
-                    className="sc-htpNat iZbbcA"
-                    color="grey"
-                  >
-                    0
-                  </div>
-                </div>
+              <i
+                aria-hidden="true"
+                className="grey shield big icon sc-bwzfXH gNTOrh"
+              />
+              <div
+                className="sc-htpNat iZbbcA"
+                color="grey"
+              >
+                0
               </div>
             </div>
           </div>

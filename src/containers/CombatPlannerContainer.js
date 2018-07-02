@@ -1,6 +1,10 @@
 import React from 'react';
+import styled from 'styled-components';
+import { Container, Segment } from 'semantic-ui-react';
+
 import Banner from '../components/Banner';
 import FighterList from '../components/FighterList';
+import FighterEditableForm from '../components/FighterEditableForm';
 
 const fighters = [
   {
@@ -49,11 +53,29 @@ const fighters = [
   }
 ];
 
+const StyledSegment = styled(Segment)`
+  &&& {
+    background-color: white;
+  }
+`;
+
+const StyledContainer = styled(Container)`
+  &&& {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+`;
+
 const CombatPlannerContainer = () => {
   return (
     <div>
       <Banner />
-      <FighterList items={fighters} />
+      <StyledSegment basic>
+        <StyledContainer>
+          <FighterList items={fighters} />
+          <FighterEditableForm />
+        </StyledContainer>
+      </StyledSegment>
     </div>
   );
 };

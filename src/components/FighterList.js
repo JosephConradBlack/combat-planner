@@ -1,20 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Container, Segment } from 'semantic-ui-react';
+import PropTypes from 'prop-types';
+import { Segment } from 'semantic-ui-react';
 
 import Fighter from './Fighter';
 
-const StyledSegment = styled(Segment)`
+const StyledSegmentGroup = styled(Segment.Group)`
   &&& {
-    background-color: white;
-  }
-`;
-
-const StyledContainer = styled(Container)`
-  &&& {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 `;
 
@@ -25,13 +18,7 @@ const getItems = items => {
 };
 
 const FighterList = ({ items }) => {
-  return (
-    <StyledSegment basic>
-      <StyledContainer>
-        <Segment.Group>{items && getItems(items)}</Segment.Group>
-      </StyledContainer>
-    </StyledSegment>
-  );
+  return <StyledSegmentGroup>{items && getItems(items)}</StyledSegmentGroup>;
 };
 
 FighterList.propTypes = {

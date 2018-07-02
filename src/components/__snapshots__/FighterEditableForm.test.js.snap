@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FighterEditable renders with no props 1`] = `
+<div
+  className="ui segment"
+>
+  <form
+    action={undefined}
+    className="ui form"
+    onSubmit={[Function]}
+  >
+    <h2
+      className="ui header"
+    >
+      Add fighter
+    </h2>
+    <div
+      className="required field"
+    >
+      <label
+        htmlFor={undefined}
+      >
+        Fighter Name
+      </label>
+      <div
+        className="ui input"
+        content={undefined}
+      >
+        <input
+          disabled={undefined}
+          name="name"
+          onChange={[Function]}
+          placeholder="Goblin #1"
+          required={true}
+          tabIndex={undefined}
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="equal width fields"
+    >
+      <div
+        className="four wide field"
+      >
+        <label
+          htmlFor={undefined}
+        >
+          Initiative
+        </label>
+        <input
+          content={undefined}
+          disabled={undefined}
+          name="initiative"
+          placeholder="17"
+          required={undefined}
+          type="number"
+        />
+      </div>
+      <i
+        aria-hidden="true"
+        className="red heart outline big icon sc-bdVaJa iAKyKJ"
+      />
+      <div
+        className="field"
+      >
+        <label
+          htmlFor={undefined}
+        >
+          Health
+        </label>
+        <input
+          content={undefined}
+          disabled={undefined}
+          name="health"
+          placeholder="30"
+          required={undefined}
+          type="number"
+        />
+      </div>
+      <i
+        aria-hidden="true"
+        className="grey shield big icon sc-bdVaJa iAKyKJ"
+      />
+      <div
+        className="field"
+      >
+        <label
+          htmlFor={undefined}
+        >
+          Armor
+        </label>
+        <input
+          content={undefined}
+          disabled={undefined}
+          name="armor"
+          placeholder="18"
+          required={undefined}
+          type="number"
+        />
+      </div>
+    </div>
+    <div
+      className="ui checkbox"
+      onChange={[Function]}
+      onClick={[Function]}
+      onMouseDown={[Function]}
+    >
+      <input
+        checked={false}
+        className="hidden"
+        disabled={undefined}
+        id={undefined}
+        name="player"
+        onClick={[Function]}
+        readOnly={true}
+        tabIndex={0}
+        type="checkbox"
+        value={undefined}
+      />
+      <label
+        htmlFor={undefined}
+      >
+        Is this a player?
+      </label>
+    </div>
+    <div
+      className="ui divider"
+    />
+    <button
+      className="ui basic button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Cancel
+    </button>
+    <button
+      className="ui positive right floated button"
+      disabled={undefined}
+      onClick={[Function]}
+      role="button"
+      tabIndex={undefined}
+    >
+      Add
+    </button>
+  </form>
+</div>
+`;
