@@ -1,0 +1,7 @@
+- [ ] UI: Change TextIcon to handle multiple character lengths
+- [ ] UI: Add ability to edit fighter values
+- [ ] UI: Add initiative to fighter
+- [ ] UI: Add fighter delete
+- [ ] UI: Add animation to adding a fighter (semantic-ui transition)
+- [ ] Control: Fighter add/edit/delete
+- [ ] Control: Add redux-persist to provide server-less 'persistence'
