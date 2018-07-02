@@ -5,7 +5,7 @@ exports[`FighterList renders with empty items array 1`] = `
   className="ui basic segment sc-bZQynM gXFCxG"
 >
   <div
-    className="ui container sc-gzVnrw dlvNYg"
+    className="ui container sc-gzVnrw ezFWMb"
   >
     <div
       className="ui segments"
@@ -19,7 +19,7 @@ exports[`FighterList renders with no props 1`] = `
   className="ui basic segment sc-bZQynM gXFCxG"
 >
   <div
-    className="ui container sc-gzVnrw dlvNYg"
+    className="ui container sc-gzVnrw ezFWMb"
   >
     <div
       className="ui segments"
@@ -33,7 +33,7 @@ exports[`FighterList renders with two items 1`] = `
   className="ui basic segment sc-bZQynM gXFCxG"
 >
   <div
-    className="ui container sc-gzVnrw dlvNYg"
+    className="ui container sc-gzVnrw ezFWMb"
   >
     <div
       className="ui segments"

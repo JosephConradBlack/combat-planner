@@ -14,6 +14,7 @@ const StyledSegment = styled(Segment)`
 const StyledContainer = styled(Container)`
   &&& {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 `;
 
