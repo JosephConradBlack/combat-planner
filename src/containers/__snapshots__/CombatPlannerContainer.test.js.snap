@@ -820,6 +820,7 @@ exports[`CombatPlannerContainer renders  1`] = `
                 required={true}
                 tabIndex={undefined}
                 type="text"
+                value=""
               />
             </div>
           </div>
@@ -838,9 +839,11 @@ exports[`CombatPlannerContainer renders  1`] = `
                 content={undefined}
                 disabled={undefined}
                 name="initiative"
+                onChange={[Function]}
                 placeholder="17"
                 required={undefined}
                 type="number"
+                value=""
               />
             </div>
             <i
@@ -859,9 +862,11 @@ exports[`CombatPlannerContainer renders  1`] = `
                 content={undefined}
                 disabled={undefined}
                 name="health"
+                onChange={[Function]}
                 placeholder="30"
                 required={undefined}
                 type="number"
+                value=""
               />
             </div>
             <i
@@ -880,6 +885,7 @@ exports[`CombatPlannerContainer renders  1`] = `
                 content={undefined}
                 disabled={undefined}
                 name="armor"
+                onChange={[Function]}
                 placeholder="18"
                 required={undefined}
                 type="number"
