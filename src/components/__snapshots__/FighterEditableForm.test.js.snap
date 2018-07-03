@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FighterEditable renders with no props 1`] = `
+exports[`FighterEditable renders with all required props 1`] = `
 <div
   className="ui segment"
 >

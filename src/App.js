@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { ThemeProvider } from 'styled-components';
 
-import CombatPlannerContainer from './containers/CombatPlannerContainer';
-
 import theme from './theme';
+import CombatPlannerContainer from './containers/CombatPlannerContainer';
 
 class App extends Component {
   render() {

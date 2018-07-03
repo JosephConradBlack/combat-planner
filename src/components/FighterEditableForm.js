@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 import {
   Segment,
@@ -19,6 +20,10 @@ const StyledIcon = styled(Icon)`
 `;
 
 class FighterEditableForm extends Component {
+  static propTypes = {
+    onSubmit: PropTypes.func.isRequired
+  };
+
   constructor(props) {
     super(props);
 
@@ -130,7 +135,5 @@ class FighterEditableForm extends Component {
     );
   }
 }
-
-FighterEditableForm.propTypes = {};
 
 export default FighterEditableForm;

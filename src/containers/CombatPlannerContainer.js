@@ -4,7 +4,9 @@ import { Container, Segment } from 'semantic-ui-react';
 
 import Banner from '../components/Banner';
 import FighterList from '../components/FighterList';
-import FighterEditableForm from '../components/FighterEditableForm';
+
+import FighterEditableFormContainer from './FighterEditableFormContainer';
+// import FighterEditableForm from '../components/FighterEditableForm';
 
 const fighters = [
   {
@@ -73,7 +75,7 @@ const CombatPlannerContainer = () => {
       <StyledSegment basic>
         <StyledContainer>
           <FighterList items={fighters} />
-          <FighterEditableForm />
+          <FighterEditableFormContainer />
         </StyledContainer>
       </StyledSegment>
     </div>
