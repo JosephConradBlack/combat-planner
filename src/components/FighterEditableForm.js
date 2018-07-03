@@ -34,7 +34,7 @@ class FighterEditableForm extends Component {
   handleChange = (e, target) => {
     const { name, value, checked, type } = target ? target : e.target;
 
-    if (type && type == 'checkbox') {
+    if (type && type === 'checkbox') {
       this.setState(Object.assign({}, this.state, { [name]: checked }));
     } else {
       this.setState(Object.assign({}, this.state, { [name]: value }));
