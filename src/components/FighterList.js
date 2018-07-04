@@ -17,8 +17,22 @@ const getItems = items => {
   ));
 };
 
+const getItemsPlaceholder = () => {
+  return (
+    <React.Fragment>
+      <Fighter />
+      <Fighter />
+      <Fighter />
+    </React.Fragment>
+  );
+};
 const FighterList = ({ items }) => {
-  return <StyledSegmentGroup>{items && getItems(items)}</StyledSegmentGroup>;
+  return (
+    <StyledSegmentGroup>
+      {items && items.length > 1 && getItems(items)}
+      {!(items && items.length > 1) && getItemsPlaceholder()}
+    </StyledSegmentGroup>
+  );
 };
 
 FighterList.propTypes = {

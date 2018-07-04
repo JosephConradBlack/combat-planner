@@ -34,7 +34,7 @@ const TextIcon = ({ icon, number, color }) => {
     <div>
       <IconContainer>
         <StyledIcon size="big" name={icon} color={color} />
-        <StyledText color={color}>{number}</StyledText>
+        {number && <StyledText color={color}>{number}</StyledText>}
       </IconContainer>
     </div>
   );

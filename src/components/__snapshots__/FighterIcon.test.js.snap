@@ -13,12 +13,7 @@ exports[`FighterIcon renders with different color 1`] = `
         aria-hidden="true"
         className="blue heart outline big icon sc-bwzfXH gNTOrh"
       />
-      <div
-        className="sc-htpNat gmYomR"
-        color="blue"
-      >
-        0
-      </div>
+      0
     </div>
   </div>
 </div>
@@ -37,12 +32,7 @@ exports[`FighterIcon renders with different icon 1`] = `
         aria-hidden="true"
         className="red shield big icon sc-bwzfXH gNTOrh"
       />
-      <div
-        className="sc-htpNat cByMRF"
-        color="red"
-      >
-        0
-      </div>
+      0
     </div>
   </div>
 </div>
@@ -85,12 +75,7 @@ exports[`FighterIcon renders with different position 1`] = `
         aria-hidden="true"
         className="red heart outline big icon sc-bwzfXH gNTOrh"
       />
-      <div
-        className="sc-htpNat cByMRF"
-        color="red"
-      >
-        0
-      </div>
+      0
     </div>
   </div>
 </div>
@@ -109,12 +94,7 @@ exports[`FighterIcon renders with no props 1`] = `
         aria-hidden="true"
         className="red heart outline big icon sc-bwzfXH gNTOrh"
       />
-      <div
-        className="sc-htpNat cByMRF"
-        color="red"
-      >
-        0
-      </div>
+      0
     </div>
   </div>
 </div>
