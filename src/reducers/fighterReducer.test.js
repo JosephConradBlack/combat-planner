@@ -7,17 +7,30 @@ describe('fighter reducer', () => {
     fighters: {}
   };
 
+  let realDateNow = null;
+  let dateNowMock = null;
+
+  beforeAll(() => {
+    realDateNow = Date.now;
+    dateNowMock = jest.fn(() => 'fake-id');
+
+    Date.now = dateNowMock;
+  });
+
+  afterAll(() => {
+    Date.now = realDateNow;
+  });
+
   it('should return the inital state', () => {
     expect(reducer(undefined, {})).toEqual(defaultState);
   });
 
   it('should handle ADD_FIGHTER', () => {
-    const id = Date.now;
     const fighter = {
-      id: id,
       name: 'Goblin 1'
     };
 
+    const id = 'fake-id';
     const action = actions.addFighter(fighter);
 
     expect(reducer(defaultState, action)).toEqual({
@@ -26,5 +39,6 @@ describe('fighter reducer', () => {
         [id]: fighter
       }
     });
+    expect(dateNowMock.mock.calls.length).toBe(1);
   });
 });
