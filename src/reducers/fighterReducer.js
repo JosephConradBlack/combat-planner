@@ -8,6 +8,9 @@ const initialState = {
 const fighterReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_FIGHTER:
+      // Define model id client-side as we are not hitting a server
+      action.payload.id = Date.now();
+
       return {
         ids: [...state.ids, action.payload.id],
         fighters: {
