@@ -36,7 +36,7 @@ exports[`CombatPlannerContainer renders  1`] = `
       className="ui container sc-gqjmRU feFZhV"
     >
       <div
-        className="ui segments sc-dnqmqq hBdoJi"
+        className="ui segments sc-iwsKbI igpolB"
       >
         <div
           className="ui segment"
@@ -51,39 +51,39 @@ exports[`CombatPlannerContainer renders  1`] = `
                 className="extra"
               >
                 <img
-                  className="ui left floated image sc-htoDjs emFeMl"
+                  className="ui left floated image sc-dnqmqq cFoMMX"
                   src="placeholderfighter.svg"
                 />
               </div>
               <div
-                className="header sc-gzVnrw JWpAx"
+                className="header sc-htoDjs brUXNQ"
               />
               <div
-                className="extra sc-bZQynM iEOshs"
+                className="extra sc-gzVnrw kyPRFC"
                 position={1}
               >
                 <div>
                   <div
-                    className="extra sc-htpNat fSoQxP"
+                    className="extra sc-bxivhb bvXNRt"
                   >
                     <i
                       aria-hidden="true"
-                      className="grey heart outline big icon sc-bxivhb iQXIBe"
+                      className="grey heart outline big icon sc-ifAKCX jJXenE"
                     />
                   </div>
                 </div>
               </div>
               <div
-                className="extra sc-bZQynM fmGHdG"
+                className="extra sc-gzVnrw dhXTJP"
                 position={0}
               >
                 <div>
                   <div
-                    className="extra sc-htpNat fSoQxP"
+                    className="extra sc-bxivhb bvXNRt"
                   >
                     <i
                       aria-hidden="true"
-                      className="grey shield big icon sc-bxivhb iQXIBe"
+                      className="grey shield big icon sc-ifAKCX jJXenE"
                     />
                   </div>
                 </div>
@@ -104,39 +104,39 @@ exports[`CombatPlannerContainer renders  1`] = `
                 className="extra"
               >
                 <img
-                  className="ui left floated image sc-htoDjs emFeMl"
+                  className="ui left floated image sc-dnqmqq cFoMMX"
                   src="placeholderfighter.svg"
                 />
               </div>
               <div
-                className="header sc-gzVnrw JWpAx"
+                className="header sc-htoDjs brUXNQ"
               />
               <div
-                className="extra sc-bZQynM iEOshs"
+                className="extra sc-gzVnrw kyPRFC"
                 position={1}
               >
                 <div>
                   <div
-                    className="extra sc-htpNat fSoQxP"
+                    className="extra sc-bxivhb bvXNRt"
                   >
                     <i
                       aria-hidden="true"
-                      className="grey heart outline big icon sc-bxivhb iQXIBe"
+                      className="grey heart outline big icon sc-ifAKCX jJXenE"
                     />
                   </div>
                 </div>
               </div>
               <div
-                className="extra sc-bZQynM fmGHdG"
+                className="extra sc-gzVnrw dhXTJP"
                 position={0}
               >
                 <div>
                   <div
-                    className="extra sc-htpNat fSoQxP"
+                    className="extra sc-bxivhb bvXNRt"
                   >
                     <i
                       aria-hidden="true"
-                      className="grey shield big icon sc-bxivhb iQXIBe"
+                      className="grey shield big icon sc-ifAKCX jJXenE"
                     />
                   </div>
                 </div>
@@ -157,39 +157,39 @@ exports[`CombatPlannerContainer renders  1`] = `
                 className="extra"
               >
                 <img
-                  className="ui left floated image sc-htoDjs emFeMl"
+                  className="ui left floated image sc-dnqmqq cFoMMX"
                   src="placeholderfighter.svg"
                 />
               </div>
               <div
-                className="header sc-gzVnrw JWpAx"
+                className="header sc-htoDjs brUXNQ"
               />
               <div
-                className="extra sc-bZQynM iEOshs"
+                className="extra sc-gzVnrw kyPRFC"
                 position={1}
               >
                 <div>
                   <div
-                    className="extra sc-htpNat fSoQxP"
+                    className="extra sc-bxivhb bvXNRt"
                   >
                     <i
                       aria-hidden="true"
-                      className="grey heart outline big icon sc-bxivhb iQXIBe"
+                      className="grey heart outline big icon sc-ifAKCX jJXenE"
                     />
                   </div>
                 </div>
               </div>
               <div
-                className="extra sc-bZQynM fmGHdG"
+                className="extra sc-gzVnrw dhXTJP"
                 position={0}
               >
                 <div>
                   <div
-                    className="extra sc-htpNat fSoQxP"
+                    className="extra sc-bxivhb bvXNRt"
                   >
                     <i
                       aria-hidden="true"
-                      className="grey shield big icon sc-bxivhb iQXIBe"
+                      className="grey shield big icon sc-ifAKCX jJXenE"
                     />
                   </div>
                 </div>
@@ -259,7 +259,7 @@ exports[`CombatPlannerContainer renders  1`] = `
             </div>
             <i
               aria-hidden="true"
-              className="red heart outline big icon sc-iwsKbI ecTPVt"
+              className="red heart outline big icon sc-htpNat eBDLVZ"
             />
             <div
               className="field"
@@ -282,7 +282,7 @@ exports[`CombatPlannerContainer renders  1`] = `
             </div>
             <i
               aria-hidden="true"
-              className="grey shield big icon sc-iwsKbI ecTPVt"
+              className="grey shield big icon sc-htpNat eBDLVZ"
             />
             <div
               className="field"

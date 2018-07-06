@@ -27,10 +27,11 @@ const getItemsPlaceholder = () => {
   );
 };
 const FighterList = ({ items }) => {
+  console.log(items);
   return (
     <StyledSegmentGroup>
-      {items && items.length > 1 && getItems(items)}
-      {!(items && items.length > 1) && getItemsPlaceholder()}
+      {items && items.length > 0 && getItems(items)}
+      {!(items && items.length > 0) && getItemsPlaceholder()}
     </StyledSegmentGroup>
   );
 };

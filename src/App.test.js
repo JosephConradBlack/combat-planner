@@ -5,8 +5,10 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
+import testStore from './utils/testStore';
+
 it('renders without crashing', () => {
-  const store = createStore(() => ({}));
+  const store = createStore(() => testStore);
 
   const div = document.createElement('div');
   ReactDOM.render(
