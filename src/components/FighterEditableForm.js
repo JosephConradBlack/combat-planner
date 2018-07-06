@@ -49,24 +49,30 @@ class FighterEditableForm extends Component {
   handleSubmit = e => {
     e.preventDefault();
     this.props.onSubmit(this.state);
+
+    this.resetForm();
   };
 
   handleCancel = e => {
     e.preventDefault();
 
+    this.resetForm();
+  };
+
+  resetForm = () => {
     this.setState({
       name: '',
       initiative: '',
       health: '',
       armor: '',
-      player: ''
+      player: false
     });
   };
 
   render() {
     return (
       <Segment>
-        <Form>
+        <Form onSubmit={this.handleSubmit}>
           <Header as="h2">Add fighter</Header>
           <Form.Input
             required
