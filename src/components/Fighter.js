@@ -38,9 +38,9 @@ const getEmptyFighter = () => (
   </Item.Content>
 );
 
-const Fighter = ({ index, item }) => {
+const Fighter = ({ className, index, item }) => {
   return (
-    <Segment>
+    <Segment className={className}>
       <Item>{item ? getFighter(index, item) : getEmptyFighter()}</Item>
     </Segment>
   );
