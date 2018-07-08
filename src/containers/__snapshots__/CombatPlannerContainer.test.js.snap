@@ -331,6 +331,16 @@ exports[`CombatPlannerContainer renders  1`] = `
             className="ui divider"
           />
           <button
+            className="ui positive right floated button"
+            disabled={undefined}
+            onClick={[Function]}
+            role="button"
+            tabIndex={undefined}
+            type="submit"
+          >
+            Add
+          </button>
+          <button
             className="ui basic button"
             disabled={undefined}
             onClick={[Function]}
@@ -338,15 +348,6 @@ exports[`CombatPlannerContainer renders  1`] = `
             tabIndex={undefined}
           >
             Cancel
-          </button>
-          <button
-            className="ui positive right floated button"
-            disabled={undefined}
-            onClick={[Function]}
-            role="button"
-            tabIndex={undefined}
-          >
-            Add
           </button>
         </form>
       </div>

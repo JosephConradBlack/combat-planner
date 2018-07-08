@@ -134,8 +134,8 @@ class FighterEditableForm extends Component {
             onChange={this.handleChange}
           />
           <Divider />
+          <Button positive floated="right" content="Add" type="submit" />
           <Button basic content="Cancel" onClick={this.handleCancel} />
-          <Button positive floated="right" content="Add" />
         </Form>
       </Segment>
     );
