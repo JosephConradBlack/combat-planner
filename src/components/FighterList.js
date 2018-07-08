@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { Segment } from 'semantic-ui-react';
+import _ from 'underscore';
 
 import Fighter from './Fighter';
 
@@ -17,21 +18,20 @@ const getItems = items => {
   ));
 };
 
-const getItemsPlaceholder = () => {
+const getItemsPlaceholder = items => {
+  const numPlaceholders = items ? 3 - items.length : 3;
+
   return (
     <React.Fragment>
-      <Fighter />
-      <Fighter />
-      <Fighter />
+      {_.times(numPlaceholders, idx => <Fighter key={idx} />)}
     </React.Fragment>
   );
 };
 const FighterList = ({ items }) => {
-  console.log(items);
   return (
     <StyledSegmentGroup>
       {items && items.length > 0 && getItems(items)}
-      {!(items && items.length > 0) && getItemsPlaceholder()}
+      {(!items || items.length < 3) && getItemsPlaceholder(items)}
     </StyledSegmentGroup>
   );
 };
