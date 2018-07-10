@@ -66,7 +66,6 @@ const Item = posed.div({
 
 const FighterList = ({ items }) => {
   const itemsWithPlaceholders = prefilItemsWithPlaceholders(items);
-  console.log(itemsWithPlaceholders);
   const lastIndex = itemsWithPlaceholders.length - 1;
 
   return (
@@ -78,6 +77,10 @@ const FighterList = ({ items }) => {
 
 FighterList.propTypes = {
   items: PropTypes.array
+};
+
+FighterList.defaultProps = {
+  items: []
 };
 
 export default FighterList;
