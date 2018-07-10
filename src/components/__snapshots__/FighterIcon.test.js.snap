@@ -1,101 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FighterIcon renders with different color 1`] = `
-<div
-  className="extra sc-ifAKCX gxUpRL"
+<Styled(ItemExtra)
   position={0}
 >
-  <div>
-    <div
-      className="extra sc-bdVaJa cdKNHG"
-    >
-      <i
-        aria-hidden="true"
-        className="blue heart outline big icon sc-bwzfXH gNTOrh"
-      />
-      0
-    </div>
-  </div>
-</div>
+  <Styled(TextIcon)
+    color="blue"
+  />
+</Styled(ItemExtra)>
 `;
 
 exports[`FighterIcon renders with different icon 1`] = `
-<div
-  className="extra sc-ifAKCX gxUpRL"
+<Styled(ItemExtra)
   position={0}
 >
-  <div>
-    <div
-      className="extra sc-bdVaJa cdKNHG"
-    >
-      <i
-        aria-hidden="true"
-        className="red shield big icon sc-bwzfXH gNTOrh"
-      />
-      0
-    </div>
-  </div>
-</div>
+  <Styled(TextIcon)
+    icon="shield"
+  />
+</Styled(ItemExtra)>
 `;
 
 exports[`FighterIcon renders with different number 1`] = `
-<div
-  className="extra sc-ifAKCX gxUpRL"
+<Styled(ItemExtra)
   position={0}
 >
-  <div>
-    <div
-      className="extra sc-bdVaJa cdKNHG"
-    >
-      <i
-        aria-hidden="true"
-        className="red heart outline big icon sc-bwzfXH gNTOrh"
-      />
-      <div
-        className="sc-htpNat cByMRF"
-        color="red"
-      >
-        4
-      </div>
-    </div>
-  </div>
-</div>
+  <Styled(TextIcon)
+    number={4}
+  />
+</Styled(ItemExtra)>
 `;
 
 exports[`FighterIcon renders with different position 1`] = `
-<div
-  className="extra sc-ifAKCX fCitBk"
+<Styled(ItemExtra)
   position={1}
 >
-  <div>
-    <div
-      className="extra sc-bdVaJa cdKNHG"
-    >
-      <i
-        aria-hidden="true"
-        className="red heart outline big icon sc-bwzfXH gNTOrh"
-      />
-      0
-    </div>
-  </div>
-</div>
+  <Styled(TextIcon) />
+</Styled(ItemExtra)>
 `;
 
 exports[`FighterIcon renders with no props 1`] = `
-<div
-  className="extra sc-ifAKCX gxUpRL"
+<Styled(ItemExtra)
   position={0}
 >
-  <div>
-    <div
-      className="extra sc-bdVaJa cdKNHG"
-    >
-      <i
-        aria-hidden="true"
-        className="red heart outline big icon sc-bwzfXH gNTOrh"
-      />
-      0
-    </div>
-  </div>
-</div>
+  <Styled(TextIcon) />
+</Styled(ItemExtra)>
 `;

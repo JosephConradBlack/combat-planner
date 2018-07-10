@@ -2,61 +2,56 @@
 
 exports[`TextIcon renders with different color 1`] = `
 <div>
-  <div
-    className="extra sc-bdVaJa cdKNHG"
-  >
-    <i
-      aria-hidden="true"
-      className="blue heart outline big icon sc-bwzfXH gNTOrh"
+  <Styled(ItemExtra)>
+    <Styled(Icon)
+      color="blue"
+      name="heart outline"
+      size="big"
     />
     0
-  </div>
+  </Styled(ItemExtra)>
 </div>
 `;
 
 exports[`TextIcon renders with different icon 1`] = `
 <div>
-  <div
-    className="extra sc-bdVaJa cdKNHG"
-  >
-    <i
-      aria-hidden="true"
-      className="red shield big icon sc-bwzfXH gNTOrh"
+  <Styled(ItemExtra)>
+    <Styled(Icon)
+      color="red"
+      name="shield"
+      size="big"
     />
     0
-  </div>
+  </Styled(ItemExtra)>
 </div>
 `;
 
 exports[`TextIcon renders with different number 1`] = `
 <div>
-  <div
-    className="extra sc-bdVaJa cdKNHG"
-  >
-    <i
-      aria-hidden="true"
-      className="red heart outline big icon sc-bwzfXH gNTOrh"
+  <Styled(ItemExtra)>
+    <Styled(Icon)
+      color="red"
+      name="heart outline"
+      size="big"
     />
-    <div
-      className="sc-htpNat cByMRF"
+    <styled.div
       color="red"
     >
       4
-    </div>
-  </div>
+    </styled.div>
+  </Styled(ItemExtra)>
 </div>
 `;
 
 exports[`TextIcon renders with no props 1`] = `
 <div>
-  <div
-    className="extra sc-bdVaJa cdKNHG"
-  >
-    <i
-      aria-hidden="true"
-      className="red heart outline big icon sc-bwzfXH gNTOrh"
+  <Styled(ItemExtra)>
+    <Styled(Icon)
+      color="red"
+      name="heart outline"
+      size="big"
     />
     0
-  </div>
+  </Styled(ItemExtra)>
 </div>
 `;

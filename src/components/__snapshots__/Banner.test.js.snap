@@ -1,31 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Banner renders 1`] = `
-<div
-  className="ui inverted vertical center aligned segment sc-bdVaJa lasqMc"
+<Styled(Segment)
+  inverted={true}
+  textAlign="center"
+  vertical={true}
 >
-  <div
-    className="ui large inverted pointing secondary menu"
-  >
-    <div
-      className="ui container"
-    >
-      <div
-        className="item"
-        onClick={[Function]}
-      >
-        Combat Planner
-      </div>
-    </div>
-  </div>
-  <div
-    className="ui container"
-  >
-    <h1
-      className="ui inverted header sc-bwzfXH cKpNQC"
+  <SiteMenu />
+  <Container>
+    <Styled(Header)
+      as="h1"
+      inverted={true}
     >
       Combat Planner
-    </h1>
-  </div>
-</div>
+    </Styled(Header)>
+  </Container>
+</Styled(Segment)>
 `;

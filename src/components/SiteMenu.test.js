@@ -1,5 +1,6 @@
 import React from 'react';
-import { create } from 'react-test-renderer';
+import { shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
 import { ThemeProvider } from 'styled-components';
 
 import theme from '../theme';
@@ -7,13 +8,12 @@ import SiteMenu from './SiteMenu';
 
 describe('SiteMenu', () => {
   it('renders', () => {
-    const component = create(
+    const component = shallow(
       <ThemeProvider theme={theme}>
         <SiteMenu />
       </ThemeProvider>
-    );
+    ).dive();
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });

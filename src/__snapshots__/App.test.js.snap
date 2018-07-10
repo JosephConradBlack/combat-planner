@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <ThemeProvider
+    theme={
+      Object {
+        "h1": Object {
+          "fontSize": "6em",
+          "fontWeight": 300,
+          "letterSpacing": "0.06em",
+          "subheader": Object {
+            "fontSize": "1em",
+            "fontWeight": "lighter",
+          },
+        },
+      }
+    }
+  >
+    <CombatPlannerContainer />
+  </ThemeProvider>
+</div>
+`;
