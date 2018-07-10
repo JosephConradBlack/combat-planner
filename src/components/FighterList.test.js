@@ -1,5 +1,6 @@
 import React from 'react';
-import { create } from 'react-test-renderer';
+import { shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
 import { ThemeProvider } from 'styled-components';
 
 import _ from 'underscore';
@@ -9,26 +10,24 @@ import FighterList from './FighterList';
 
 describe('FighterList', () => {
   it('renders with no props', () => {
-    const component = create(
+    const component = shallow(
       <ThemeProvider theme={theme}>
         <FighterList />
       </ThemeProvider>
-    );
+    ).dive();
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders with empty items array', () => {
     const items = [];
-    const component = create(
+    const component = shallow(
       <ThemeProvider theme={theme}>
         <FighterList items={items} />
       </ThemeProvider>
-    );
+    ).dive();
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   const createComponentWithNFighters = numFighters => {
@@ -41,38 +40,34 @@ describe('FighterList', () => {
       });
     });
 
-    return create(
+    return shallow(
       <ThemeProvider theme={theme}>
         <FighterList items={items} />
       </ThemeProvider>
-    );
+    ).dive();
   };
 
   it('renders with one item', () => {
     const component = createComponentWithNFighters(1);
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders with two items', () => {
     const component = createComponentWithNFighters(2);
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders with three items', () => {
     const component = createComponentWithNFighters(3);
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders with four items', () => {
     const component = createComponentWithNFighters(4);
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });
