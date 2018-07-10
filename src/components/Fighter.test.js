@@ -1,20 +1,21 @@
 import React from 'react';
-import { create } from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 
 import theme from '../theme';
 import Fighter from './Fighter';
 
+import { shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
+
 describe('Fighter', () => {
   it('renders with no props', () => {
-    const component = create(
+    const component = shallow(
       <ThemeProvider theme={theme}>
         <Fighter />
       </ThemeProvider>
-    );
+    ).dive();
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 
   it('renders with fighter', () => {
@@ -22,13 +23,13 @@ describe('Fighter', () => {
       id: 1,
       name: 'Fighter'
     };
-    const component = create(
+
+    const component = shallow(
       <ThemeProvider theme={theme}>
         <Fighter item={item} />
       </ThemeProvider>
-    );
+    ).dive();
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });
