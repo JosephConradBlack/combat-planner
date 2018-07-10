@@ -5,15 +5,17 @@ import { ThemeProvider } from 'styled-components';
 import theme from '../theme';
 import Banner from './Banner';
 
+import { shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
+
 describe('Banner', () => {
   it('renders', () => {
-    const component = create(
+    const component = shallow(
       <ThemeProvider theme={theme}>
         <Banner />
       </ThemeProvider>
-    );
+    ).dive();
 
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(toJson(component)).toMatchSnapshot();
   });
 });
