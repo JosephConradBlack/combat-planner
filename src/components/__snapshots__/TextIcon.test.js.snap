@@ -8,7 +8,6 @@ exports[`TextIcon renders with different color 1`] = `
       name="heart outline"
       size="big"
     />
-    0
   </Styled(ItemExtra)>
 </div>
 `;
@@ -21,7 +20,6 @@ exports[`TextIcon renders with different icon 1`] = `
       name="shield"
       size="big"
     />
-    0
   </Styled(ItemExtra)>
 </div>
 `;
@@ -51,7 +49,6 @@ exports[`TextIcon renders with no props 1`] = `
       name="heart outline"
       size="big"
     />
-    0
   </Styled(ItemExtra)>
 </div>
 `;

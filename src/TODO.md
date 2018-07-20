@@ -1,4 +1,3 @@
-- [ ] UI: Change TextIcon to situate text next to the icon
 - [ ] UI: Add ability to delete a fighter
 - [ ] UI: Add ability to edit fighter values
 - [ ] UI: Add initiative to fighter

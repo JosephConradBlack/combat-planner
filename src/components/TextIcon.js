@@ -5,25 +5,21 @@ import { Item, Icon } from 'semantic-ui-react';
 
 const IconContainer = styled(Item.Extra)`
   &&& {
-    position: relative;
     height: 33px;
-    width: 33px;
+    width: 70px;
   }
 `;
 
 const StyledIcon = styled(Icon)`
   &&& {
-    position: absolute;
-    left: 0;
-    opacity: 0.8;
   }
 `;
 
 const StyledText = styled.div`
   &&& {
-    position: absolute;
-    top: 3px;
-    left: 40%;
+    display: inline-block;
+    height: 100%;
+    width: 33px;
     color: ${props => props.color};
     font-weight: 600;
   }
@@ -48,7 +44,7 @@ TextIcon.propTypes = {
 
 TextIcon.defaultProps = {
   icon: 'heart outline',
-  number: 0,
+  number: null,
   color: 'red'
 };
 

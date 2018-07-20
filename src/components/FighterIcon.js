@@ -15,7 +15,7 @@ const IconWrapper = styled(Item.Extra)`
   &&& {
     display: inline-block;
     position: absolute;
-    right: ${props => props.position * 33}px;
+    right: ${props => props.position * 33 * 2}px;
     margin-right: 5px;
   }
 `;

@@ -22,8 +22,22 @@ const getFighter = (index, item) => (
       <Header floated="left">{index + 1}</Header>
     </Item.Extra>
     <HeaderContainer>{item.name}</HeaderContainer>
-    <FighterIcon icon="heart outline" color="red" position={1} />
-    <FighterIcon icon="shield" color="grey" position={0} />
+    {item.health && (
+      <FighterIcon
+        icon="heart outline"
+        color="red"
+        number={item.health}
+        position={1}
+      />
+    )}
+    {item.armor && (
+      <FighterIcon
+        icon="shield"
+        color="grey"
+        number={item.armor}
+        position={0}
+      />
+    )}
   </Item.Content>
 );
 

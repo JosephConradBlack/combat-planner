@@ -14,16 +14,6 @@ exports[`Fighter renders with fighter 1`] = `
       <Styled(ItemHeader)>
         Fighter
       </Styled(ItemHeader)>
-      <FighterIcon
-        color="red"
-        icon="heart outline"
-        position={1}
-      />
-      <FighterIcon
-        color="grey"
-        icon="shield"
-        position={0}
-      />
     </ItemContent>
   </Item>
 </Segment>
