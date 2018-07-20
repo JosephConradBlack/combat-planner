@@ -1,9 +1,10 @@
 - [ ] UI: Add ability to delete a fighter
 - [ ] UI: Add ability to edit fighter values
 - [ ] UI: Add initiative to fighter
-- [ ] UI: Add animation to adding a fighter (semantic-ui transition)
 - [ ] UI: Add intro text under site banner
 - [ ] UI: Change placeholder to support really small screen sizes
+- [ ] UI: Make fighters reorderable
+- [In Progress] UI: Update icons to handle mobile screen size
 - [ ] Control: Fighter add/edit/delete
 - [ ] Control: Add redux-persist to provide server-less 'persistence'
 

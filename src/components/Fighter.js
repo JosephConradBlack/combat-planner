@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Segment, Item, Header, Image } from 'semantic-ui-react';
+import { Segment, Item, Header, Image, Responsive } from 'semantic-ui-react';
 
 import FighterIcon from './FighterIcon';
 import placeholderFighter from '../assets/placeholderfighter.svg';
@@ -41,14 +41,26 @@ const getFighter = (index, item) => (
   </Item.Content>
 );
 
+const StyledResponsive = styled(Responsive)`
+  &&& {
+    display: inline;
+  }
+`;
 const getEmptyFighter = () => (
   <Item.Content>
     <Item.Extra>
       <StyledPlaceholerImage floated="left" src={placeholderFighter} />
     </Item.Extra>
     <HeaderContainer />
-    <FighterIcon icon="heart outline" color="grey" number={null} position={1} />
-    <FighterIcon icon="shield" color="grey" number={null} position={0} />
+    <StyledResponsive minWidth={600}>
+      <FighterIcon
+        icon="heart outline"
+        color="grey"
+        number={null}
+        position={1}
+      />
+      <FighterIcon icon="shield" color="grey" number={null} position={0} />
+    </StyledResponsive>
   </Item.Content>
 );
 

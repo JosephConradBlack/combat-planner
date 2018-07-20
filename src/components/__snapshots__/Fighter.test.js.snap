@@ -30,18 +30,22 @@ exports[`Fighter renders with no props 1`] = `
         />
       </ItemExtra>
       <Styled(ItemHeader) />
-      <FighterIcon
-        color="grey"
-        icon="heart outline"
-        number={null}
-        position={1}
-      />
-      <FighterIcon
-        color="grey"
-        icon="shield"
-        number={null}
-        position={0}
-      />
+      <Styled(Responsive)
+        minWidth={600}
+      >
+        <FighterIcon
+          color="grey"
+          icon="heart outline"
+          number={null}
+          position={1}
+        />
+        <FighterIcon
+          color="grey"
+          icon="shield"
+          number={null}
+          position={0}
+        />
+      </Styled(Responsive)>
     </ItemContent>
   </Item>
 </Segment>
