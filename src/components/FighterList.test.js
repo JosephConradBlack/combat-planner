@@ -36,7 +36,8 @@ describe('FighterList', () => {
     _.times(numFighters, idx => {
       items.push({
         id: idx,
-        name: 'Item: ' + idx
+        name: 'Item: ' + idx,
+        initiative: idx
       });
     });
 
