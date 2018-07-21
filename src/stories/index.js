@@ -3,10 +3,79 @@ import styled from 'styled-components';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
+import FighterList from '../components/FighterList';
 import Fighter from '../components/Fighter';
 import FighterIcon from '../components/FighterIcon';
 import TextIcon from '../components/TextIcon';
 import NounIcon from '../components/NounIcon';
+
+storiesOf('FighterList', module)
+  .add('with no items', () => <FighterList items={[]} />)
+  .add('with 3 basic items', () => (
+    <FighterList
+      items={[
+        {
+          id: 1,
+          name: 'Goblin 1'
+        },
+        {
+          id: 2,
+          name: 'Goblin 2'
+        },
+        {
+          id: 3,
+          name: 'Goblin 3'
+        }
+      ]}
+    />
+  ))
+  .add('with 3 stat items', () => (
+    <FighterList
+      items={[
+        {
+          id: 1,
+          name: 'Goblin 1',
+          health: 10,
+          armor: 10,
+          initiative: 7
+        },
+        {
+          id: 2,
+          name: 'Goblin 2',
+          health: 10,
+          armor: 10,
+          initiative: 4
+        },
+        {
+          id: 3,
+          name: 'Goblin 3',
+          health: 10,
+          armor: 10,
+          initiative: 3
+        }
+      ]}
+    />
+  ))
+  .add('with mixed initiative and no initiative', () => (
+    <FighterList
+      items={[
+        {
+          id: 1,
+          name: 'Goblin 1',
+          initiative: 7
+        },
+        {
+          id: 2,
+          name: 'Goblin 2'
+        },
+        {
+          id: 3,
+          name: 'Goblin 3',
+          initiative: 3
+        }
+      ]}
+    />
+  ));
 
 storiesOf('Fighter', module)
   .add('with no props', () => <Fighter />)
