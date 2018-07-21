@@ -5,6 +5,7 @@ import { storiesOf } from '@storybook/react';
 import Fighter from '../components/Fighter';
 import FighterIcon from '../components/FighterIcon';
 import TextIcon from '../components/TextIcon';
+import NounIcon from '../components/NounIcon';
 
 storiesOf('Fighter', module)
   .add('with no props', () => <Fighter />)
@@ -83,3 +84,7 @@ storiesOf('TextIcon', module)
   .add('with three digit number', () => <TextIcon number={100} />)
   .add('with icon', () => <TextIcon icon="shield" />)
   .add('with color', () => <TextIcon color="grey" />);
+
+storiesOf('NounIcon', module).add('with src', () => (
+  <NounIcon src="/icon_sword.svg" />
+));

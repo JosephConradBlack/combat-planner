@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NounIcon renders with src 1`] = `
+<Styled(Image)
+  src="icon_sword.svg"
+/>
+`;

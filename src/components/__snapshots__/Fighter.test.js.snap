@@ -4,13 +4,7 @@ exports[`Fighter renders with fighter 1`] = `
 <Segment>
   <Item>
     <ItemContent>
-      <ItemExtra>
-        <Header
-          floated="left"
-        >
-          NaN
-        </Header>
-      </ItemExtra>
+      <ItemExtra />
       <Styled(Styled(ItemHeader))>
         Fighter
       </Styled(Styled(ItemHeader))>

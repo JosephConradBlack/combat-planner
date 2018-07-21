@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Segment, Item, Header, Image, Responsive } from 'semantic-ui-react';
 
 import FighterIcon from './FighterIcon';
+import NounIcon from './NounIcon';
 import placeholderFighter from '../assets/placeholderfighter.svg';
 
 const HeaderContainer = styled(Item.Header)`
@@ -28,7 +29,12 @@ const StyledPlaceholerImage = styled(Image)`
 const getFighter = (index, item) => (
   <Item.Content>
     <Item.Extra>
-      <Header floated="left">{index + 1}</Header>
+      {item.initiative && (
+        <React.Fragment>
+          <NounIcon src="/icon_sword.svg" floated="left" />
+          <Header floated="left">{item.initiative}</Header>
+        </React.Fragment>
+      )}
     </Item.Extra>
     <HeaderContainerWithEllipsis>{item.name}</HeaderContainerWithEllipsis>
     {item.health && (

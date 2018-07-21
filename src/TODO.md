@@ -2,7 +2,6 @@
 - [ ] UI: Add ability to edit fighter values
 - [ ] UI: Add initiative to fighter
 - [ ] UI: Add intro text under site banner
-- [ ] UI: Change placeholder to support really small screen sizes
 - [ ] UI: Make fighters reorderable
 - [ ] UI: Auto re-order fighters based on initiative
 - [ ] UI: Add button control bar
