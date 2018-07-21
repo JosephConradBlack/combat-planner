@@ -4,7 +4,11 @@
 - [ ] UI: Add intro text under site banner
 - [ ] UI: Change placeholder to support really small screen sizes
 - [ ] UI: Make fighters reorderable
-- [In Progress] UI: Update icons to handle mobile screen size
+- [ ] UI: Auto re-order fighters based on initiative
+- [ ] UI: Add button control bar
+- [ ] UI: Add control button: next fighter
+  <!-- - [ ] UI: Add control button: damage fighter? -->
+  <!-- - [ ] UI: Add control button: heal figter? -->
 - [ ] Control: Fighter add/edit/delete
 - [ ] Control: Add redux-persist to provide server-less 'persistence'
 

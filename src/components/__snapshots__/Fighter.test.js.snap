@@ -11,9 +11,9 @@ exports[`Fighter renders with fighter 1`] = `
           NaN
         </Header>
       </ItemExtra>
-      <Styled(ItemHeader)>
+      <Styled(Styled(ItemHeader))>
         Fighter
-      </Styled(ItemHeader)>
+      </Styled(Styled(ItemHeader))>
     </ItemContent>
   </Item>
 </Segment>

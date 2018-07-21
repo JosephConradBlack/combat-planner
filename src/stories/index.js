@@ -34,6 +34,18 @@ storiesOf('Fighter', module)
         initiative: 10
       }}
     />
+  ))
+  .add('with long named player', () => (
+    <Fighter
+      index={0}
+      item={{
+        name: 'Davorin Gladomain the Blackguard',
+        player: true,
+        health: 10,
+        armor: 10,
+        initiative: 10
+      }}
+    />
   ));
 
 const Wrapper = styled.div`

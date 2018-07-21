@@ -12,6 +12,15 @@ const HeaderContainer = styled(Item.Header)`
   }
 `;
 
+const HeaderContainerWithEllipsis = styled(HeaderContainer)`
+  @media only screen and (max-width: 500px) {
+    width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+`;
+
 const StyledPlaceholerImage = styled(Image)`
   opacity: 0.8;
 `;
@@ -21,7 +30,7 @@ const getFighter = (index, item) => (
     <Item.Extra>
       <Header floated="left">{index + 1}</Header>
     </Item.Extra>
-    <HeaderContainer>{item.name}</HeaderContainer>
+    <HeaderContainerWithEllipsis>{item.name}</HeaderContainerWithEllipsis>
     {item.health && (
       <FighterIcon
         icon="heart outline"
