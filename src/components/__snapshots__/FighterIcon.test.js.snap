@@ -6,6 +6,7 @@ exports[`FighterIcon renders with different color 1`] = `
 >
   <Styled(TextIcon)
     color="blue"
+    readonly={false}
   />
 </Styled(ItemExtra)>
 `;
@@ -16,6 +17,7 @@ exports[`FighterIcon renders with different icon 1`] = `
 >
   <Styled(TextIcon)
     icon="shield"
+    readonly={false}
   />
 </Styled(ItemExtra)>
 `;
@@ -26,6 +28,7 @@ exports[`FighterIcon renders with different number 1`] = `
 >
   <Styled(TextIcon)
     number={4}
+    readonly={false}
   />
 </Styled(ItemExtra)>
 `;
@@ -34,7 +37,9 @@ exports[`FighterIcon renders with different position 1`] = `
 <Styled(ItemExtra)
   position={1}
 >
-  <Styled(TextIcon) />
+  <Styled(TextIcon)
+    readonly={false}
+  />
 </Styled(ItemExtra)>
 `;
 
@@ -42,6 +47,8 @@ exports[`FighterIcon renders with no props 1`] = `
 <Styled(ItemExtra)
   position={0}
 >
-  <Styled(TextIcon) />
+  <Styled(TextIcon)
+    readonly={false}
+  />
 </Styled(ItemExtra)>
 `;

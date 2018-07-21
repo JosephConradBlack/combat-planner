@@ -20,10 +20,23 @@ const IconWrapper = styled(Item.Extra)`
   }
 `;
 
-const FighterIcon = ({ icon, number, color, position }) => {
+const FighterIcon = ({
+  icon,
+  number,
+  color,
+  position,
+  readonly,
+  handleChange
+}) => {
   return (
     <IconWrapper position={position}>
-      <StyledTextIcon icon={icon} number={number} color={color} />
+      <StyledTextIcon
+        icon={icon}
+        number={number}
+        color={color}
+        handleChange={handleChange}
+        readonly={readonly}
+      />
     </IconWrapper>
   );
 };
@@ -32,11 +45,14 @@ FighterIcon.propTypes = {
   icon: PropTypes.string,
   number: PropTypes.number,
   color: PropTypes.string,
-  position: PropTypes.number
+  position: PropTypes.number,
+  readonly: PropTypes.bool,
+  handleChange: PropTypes.func
 };
 
 FighterIcon.defaultProps = {
-  position: 0
+  position: 0,
+  readonly: false
 };
 
 export default FighterIcon;

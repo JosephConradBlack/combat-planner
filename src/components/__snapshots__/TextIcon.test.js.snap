@@ -32,11 +32,14 @@ exports[`TextIcon renders with different number 1`] = `
       name="heart outline"
       size="big"
     />
-    <styled.div
+    <Styled(Input)
       color="red"
-    >
-      4
-    </styled.div>
+      placeholder="0"
+      readonly={false}
+      transparent={true}
+      type="number"
+      value={4}
+    />
   </Styled(ItemExtra)>
 </div>
 `;

@@ -32,12 +32,14 @@ exports[`Fighter renders with no props 1`] = `
           icon="heart outline"
           number={null}
           position={1}
+          readonly={false}
         />
         <FighterIcon
           color="grey"
           icon="shield"
           number={null}
           position={0}
+          readonly={false}
         />
       </Styled(Responsive)>
     </ItemContent>

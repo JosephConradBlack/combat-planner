@@ -26,70 +26,88 @@ const StyledPlaceholerImage = styled(Image)`
   opacity: 0.8;
 `;
 
-const getFighter = (index, item) => (
-  <Item.Content>
-    <Item.Extra>
-      {item.initiative && (
-        <React.Fragment>
-          <NounIcon src="/icon_sword.svg" floated="left" />
-          <Header floated="left">{item.initiative}</Header>
-        </React.Fragment>
-      )}
-    </Item.Extra>
-    <HeaderContainerWithEllipsis>{item.name}</HeaderContainerWithEllipsis>
-    {item.health && (
-      <FighterIcon
-        icon="heart outline"
-        color="red"
-        number={item.health}
-        position={1}
-      />
-    )}
-    {item.armor && (
-      <FighterIcon
-        icon="shield"
-        color="grey"
-        number={item.armor}
-        position={0}
-      />
-    )}
-  </Item.Content>
-);
-
 const StyledResponsive = styled(Responsive)`
   &&& {
     display: inline;
   }
 `;
-const getEmptyFighter = () => (
-  <Item.Content>
-    <Item.Extra>
-      <StyledPlaceholerImage floated="left" src={placeholderFighter} />
-    </Item.Extra>
-    <HeaderContainer />
-    <StyledResponsive minWidth={600}>
-      <FighterIcon
-        icon="heart outline"
-        color="grey"
-        number={null}
-        position={1}
-      />
-      <FighterIcon icon="shield" color="grey" number={null} position={0} />
-    </StyledResponsive>
-  </Item.Content>
-);
 
-const Fighter = ({ className, index, item }) => {
-  return (
-    <Segment className={className}>
-      <Item>{item ? getFighter(index, item) : getEmptyFighter()}</Item>
-    </Segment>
+const Fighter = class extends React.Component {
+  static propTypes = {
+    index: PropTypes.number,
+    item: PropTypes.object
+  };
+
+  constructor(props) {
+    super(props);
+
+    this.state = { health: props.item ? props.item.health : null };
+  }
+
+  handleHealthChange = (event, data) => {
+    this.setState({ health: data.value });
+  };
+
+  getFighter = (index, item) => (
+    <Item.Content>
+      <Item.Extra>
+        {item.initiative && (
+          <React.Fragment>
+            <NounIcon src="/icon_sword.svg" floated="left" />
+            <Header floated="left">{item.initiative}</Header>
+          </React.Fragment>
+        )}
+      </Item.Extra>
+      <HeaderContainerWithEllipsis>{item.name}</HeaderContainerWithEllipsis>
+      {item.health && (
+        <FighterIcon
+          icon="heart outline"
+          color="red"
+          number={this.state.health}
+          position={1}
+          handleChange={this.handleHealthChange}
+        />
+      )}
+      {item.armor && (
+        <FighterIcon
+          icon="shield"
+          color="grey"
+          number={item.armor}
+          position={0}
+          readonly
+        />
+      )}
+    </Item.Content>
   );
-};
 
-Fighter.propTypes = {
-  index: PropTypes.number,
-  item: PropTypes.object
+  getEmptyFighter = () => (
+    <Item.Content>
+      <Item.Extra>
+        <StyledPlaceholerImage floated="left" src={placeholderFighter} />
+      </Item.Extra>
+      <HeaderContainer />
+      <StyledResponsive minWidth={600}>
+        <FighterIcon
+          icon="heart outline"
+          color="grey"
+          number={null}
+          position={1}
+        />
+        <FighterIcon icon="shield" color="grey" number={null} position={0} />
+      </StyledResponsive>
+    </Item.Content>
+  );
+
+  render() {
+    const { className, index, item } = this.props;
+    return (
+      <Segment className={className}>
+        <Item>
+          {item ? this.getFighter(index, item) : this.getEmptyFighter()}
+        </Item>
+      </Segment>
+    );
+  }
 };
 
 export default Fighter;
