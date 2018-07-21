@@ -6,7 +6,7 @@ exports[`renders without crashing 1`] = `
     theme={
       Object {
         "h1": Object {
-          "fontSize": "6em",
+          "fontSize": "4em",
           "fontWeight": 300,
           "letterSpacing": "0.06em",
           "subheader": Object {

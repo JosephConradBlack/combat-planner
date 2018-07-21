@@ -1,6 +1,6 @@
 export default {
   h1: {
-    fontSize: '6em',
+    fontSize: '4em',
     fontWeight: 300,
     letterSpacing: '0.06em',
     subheader: {

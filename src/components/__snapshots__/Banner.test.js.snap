@@ -6,14 +6,18 @@ exports[`Banner renders 1`] = `
   textAlign="center"
   vertical={true}
 >
-  <SiteMenu />
-  <Container>
+  <styled.div>
+    <styled.div
+      src="hero.jpg"
+    />
+  </styled.div>
+  <Styled(Container)>
     <Styled(Header)
       as="h1"
       inverted={true}
     >
-      Combat Planner
+      Combat Tracker
     </Styled(Header)>
-  </Container>
+  </Styled(Container)>
 </Styled(Segment)>
 `;
