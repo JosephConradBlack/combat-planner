@@ -43,7 +43,7 @@ const prefilItemsWithPlaceholders = items => {
     .concat(items);
 };
 
-const getItems = (items, lastIndex) =>
+const getItems = (items, lastIndex, onFighterUpdate) =>
   items.map((item, index) => (
     <Item key={item.id}>
       {item.placeholder ? (
@@ -54,6 +54,7 @@ const getItems = (items, lastIndex) =>
           index={index}
           lastIndex={lastIndex}
           item={item}
+          handleChange={onFighterUpdate}
         />
       )}
     </Item>
@@ -64,19 +65,22 @@ const Item = posed.div({
   exit: { opacity: 0 }
 });
 
-const FighterList = ({ items }) => {
+const FighterList = ({ items, onFighterUpdate }) => {
   const itemsWithPlaceholders = prefilItemsWithPlaceholders(items);
   const lastIndex = itemsWithPlaceholders.length - 1;
 
   return (
     <StyledSegmentGroup>
-      <PoseGroup>{getItems(itemsWithPlaceholders, lastIndex)}</PoseGroup>
+      <PoseGroup>
+        {getItems(itemsWithPlaceholders, lastIndex, onFighterUpdate)}
+      </PoseGroup>
     </StyledSegmentGroup>
   );
 };
 
 FighterList.propTypes = {
-  items: PropTypes.array
+  items: PropTypes.array,
+  onFighterUpdate: PropTypes.func
 };
 
 FighterList.defaultProps = {

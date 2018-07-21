@@ -1,6 +1,8 @@
 import { connect } from 'react-redux';
 
 import FighterList from '../components/FighterList';
+
+import { editFighter } from '../actions/fighterActions';
 import { getFighters } from '../selectors/fighterSelectors';
 
 const mapStateToProps = state => {
@@ -9,7 +11,9 @@ const mapStateToProps = state => {
   };
 };
 
-const mapDispatchToProps = {};
+const mapDispatchToProps = {
+  onFighterUpdate: editFighter
+};
 
 const FighterListContainer = connect(
   mapStateToProps,

@@ -41,4 +41,36 @@ describe('fighter reducer', () => {
     });
     expect(dateNowMock.mock.calls.length).toBe(1);
   });
+
+  it('should handle EDIT_FIGHTER', () => {
+    const id = 'fake-id';
+
+    const originalFighter = {
+      id: id,
+      name: 'Goblin 1',
+      health: 30
+    };
+
+    const defaultState = {
+      ids: [id],
+      fighters: {
+        [id]: originalFighter
+      }
+    };
+
+    const updatedFighter = {
+      id: id,
+      name: 'Goblin 1',
+      health: 60
+    };
+
+    const action = actions.editFighter(updatedFighter);
+
+    expect(reducer(defaultState, action)).toEqual({
+      ids: [id],
+      fighters: {
+        [id]: updatedFighter
+      }
+    });
+  });
 });

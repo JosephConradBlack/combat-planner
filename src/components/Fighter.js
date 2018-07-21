@@ -35,7 +35,8 @@ const StyledResponsive = styled(Responsive)`
 const Fighter = class extends React.Component {
   static propTypes = {
     index: PropTypes.number,
-    item: PropTypes.object
+    item: PropTypes.object,
+    handleChange: PropTypes.func
   };
 
   constructor(props) {
@@ -46,6 +47,13 @@ const Fighter = class extends React.Component {
 
   handleHealthChange = (event, data) => {
     this.setState({ health: data.value });
+
+    if (this.props.handleChange) {
+      this.props.handleChange({
+        ...this.props.item,
+        health: data.value
+      });
+    }
   };
 
   getFighter = (index, item) => (

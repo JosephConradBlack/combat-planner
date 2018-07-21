@@ -1,4 +1,4 @@
-import { ADD_FIGHTER } from '../actions/fighterActions';
+import { ADD_FIGHTER, EDIT_FIGHTER } from '../actions/fighterActions';
 
 const initialState = {
   ids: [],
@@ -13,6 +13,14 @@ const fighterReducer = (state = initialState, action) => {
 
       return {
         ids: [...state.ids, action.payload.id],
+        fighters: {
+          ...state.fighters,
+          [action.payload.id]: action.payload
+        }
+      };
+    case EDIT_FIGHTER:
+      return {
+        ids: state.ids,
         fighters: {
           ...state.fighters,
           [action.payload.id]: action.payload
