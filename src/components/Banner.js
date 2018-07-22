@@ -42,7 +42,7 @@ const HeroImage = styled.div`
   width: 100%;
 
   background-image: url(hero.jpeg);
-  background-size: 100%;
+  background-size: 200%;
   background-position: center center;
   background-repeat: no-repeat;
   filter: grayscale(100%);
