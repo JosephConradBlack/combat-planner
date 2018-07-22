@@ -43,7 +43,7 @@ const FighterIcon = ({
 
 FighterIcon.propTypes = {
   icon: PropTypes.string,
-  number: PropTypes.number,
+  number: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   color: PropTypes.string,
   position: PropTypes.number,
   readonly: PropTypes.bool,

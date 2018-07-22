@@ -50,7 +50,6 @@ const TextIcon = ({ icon, number, color, readonly, handleChange }) => (
             type="number"
             color={color}
             value={number}
-            readonly={readonly}
             onChange={handleChange}
           />
         )}
@@ -61,7 +60,7 @@ const TextIcon = ({ icon, number, color, readonly, handleChange }) => (
 
 TextIcon.propTypes = {
   icon: PropTypes.string,
-  number: PropTypes.number,
+  number: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   color: PropTypes.string,
   readonly: PropTypes.bool,
   handleChange: PropTypes.func

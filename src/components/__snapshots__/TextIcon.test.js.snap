@@ -35,7 +35,6 @@ exports[`TextIcon renders with different number 1`] = `
     <Styled(Input)
       color="red"
       placeholder="0"
-      readonly={false}
       transparent={true}
       type="number"
       value={4}
