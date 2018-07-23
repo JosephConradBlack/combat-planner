@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,MACE,WAAa,CAOf,KACE,wBAA0B","file":"static/css/main.ecd2380a.css","sourcesContent":["#root {\n  height: 100%;\n}\n\n/* \n  Add background color to base html to colour\n  rubberband effect when scrolling\n   */\nhtml {\n  background-color: #1b1c1d;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
