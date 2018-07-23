@@ -21,7 +21,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "deploy": "yarn build && gh-pages -d build"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.8",
@@ -33,7 +34,9 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
+    "gh-pages": "^1.2.0",
     "prettier-eslint": "^8.8.1",
     "react-test-renderer": "^16.4.1"
-  }
+  },
+  "homepage": "https://JosephConradBlack.github.io/combat-tracker"
 }
