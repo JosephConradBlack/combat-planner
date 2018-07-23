@@ -91,10 +91,17 @@ exports[`ButtonGroup renders with one items  1`] = `
         key="1"
       />
     </Component>
-    <Component>
+    <Component
+      key="id"
+    >
       <Styled(Fighter)
         index={2}
-        item={Object {}}
+        item={
+          Object {
+            "id": "id",
+          }
+        }
+        key="id"
         lastIndex={2}
       />
     </Component>

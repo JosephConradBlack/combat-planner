@@ -26,7 +26,7 @@ const CombatPlannerPage = ({ items, onFighterUpdate }) => (
     <Banner />
     <StyledSegment basic>
       <StyledContainer>
-        <ButtonGroup />
+        <ButtonGroup items={items} />
         <Divider />
         <FighterList items={items} onFighterUpdate={onFighterUpdate} />
         <FighterEditableFormContainer />
