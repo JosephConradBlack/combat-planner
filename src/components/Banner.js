@@ -4,7 +4,7 @@ import { Segment, Header, Container } from 'semantic-ui-react';
 
 const StyledSegment = styled(Segment)`
   &&& {
-    min-height: 400px;
+    min-height: 200px;
     background-color: #2c3e50;
     display: flex;
     align-items: center;
@@ -27,34 +27,9 @@ const BigHeader = styled(Header)`
   }
 `;
 
-const HeroContainer = styled.div`
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-
-  background-color: #2c3e50;
-`;
-
-const HeroImage = styled.div`
-  height: 100%;
-  width: 100%;
-
-  background-image: url(hero.jpeg);
-  background-size: 200%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  filter: grayscale(100%);
-  mix-blend-mode: multiply;
-`;
-
 const Banner = () => {
   return (
     <StyledSegment inverted vertical textAlign="center">
-      <HeroContainer>
-        <HeroImage src="hero.jpg" />
-      </HeroContainer>
       <BigHeaderContainer>
         <BigHeader inverted as="h1">
           Combat Tracker
