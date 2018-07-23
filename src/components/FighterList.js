@@ -45,13 +45,6 @@ const prefilItemsWithPlaceholders = items => {
     .concat(items);
 };
 
-const orderItems = items => {
-  return _.sortBy(
-    items,
-    item => -1 * (item.initiative ? item.initiative : MAX_INT)
-  );
-};
-
 const getItems = (items, lastIndex, onFighterUpdate) =>
   items.map((item, index) => (
     <Item key={item.id}>
@@ -75,7 +68,7 @@ const Item = posed.div({
 });
 
 const FighterList = ({ items, onFighterUpdate }) => {
-  const itemsWithPlaceholders = prefilItemsWithPlaceholders(orderItems(items));
+  const itemsWithPlaceholders = prefilItemsWithPlaceholders(items);
   const lastIndex = itemsWithPlaceholders.length - 1;
 
   return (

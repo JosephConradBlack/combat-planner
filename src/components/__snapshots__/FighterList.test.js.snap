@@ -44,34 +44,18 @@ exports[`FighterList renders with four items 1`] = `
     singleChildOnly={false}
   >
     <Component
-      key="3"
+      key="0"
     >
       <Styled(Fighter)
         index={0}
         item={
           Object {
-            "id": 3,
-            "initiative": 3,
-            "name": "Item: 3",
+            "id": 0,
+            "initiative": 0,
+            "name": "Item: 0",
           }
         }
-        key="3"
-        lastIndex={3}
-      />
-    </Component>
-    <Component
-      key="2"
-    >
-      <Styled(Fighter)
-        index={1}
-        item={
-          Object {
-            "id": 2,
-            "initiative": 2,
-            "name": "Item: 2",
-          }
-        }
-        key="2"
+        key="0"
         lastIndex={3}
       />
     </Component>
@@ -79,7 +63,7 @@ exports[`FighterList renders with four items 1`] = `
       key="1"
     >
       <Styled(Fighter)
-        index={2}
+        index={1}
         item={
           Object {
             "id": 1,
@@ -92,18 +76,34 @@ exports[`FighterList renders with four items 1`] = `
       />
     </Component>
     <Component
-      key="0"
+      key="2"
+    >
+      <Styled(Fighter)
+        index={2}
+        item={
+          Object {
+            "id": 2,
+            "initiative": 2,
+            "name": "Item: 2",
+          }
+        }
+        key="2"
+        lastIndex={3}
+      />
+    </Component>
+    <Component
+      key="3"
     >
       <Styled(Fighter)
         index={3}
         item={
           Object {
-            "id": 0,
-            "initiative": 0,
-            "name": "Item: 0",
+            "id": 3,
+            "initiative": 3,
+            "name": "Item: 3",
           }
         }
-        key="0"
+        key="3"
         lastIndex={3}
       />
     </Component>
@@ -198,18 +198,18 @@ exports[`FighterList renders with three items 1`] = `
     singleChildOnly={false}
   >
     <Component
-      key="2"
+      key="0"
     >
       <Styled(Fighter)
         index={0}
         item={
           Object {
-            "id": 2,
-            "initiative": 2,
-            "name": "Item: 2",
+            "id": 0,
+            "initiative": 0,
+            "name": "Item: 0",
           }
         }
-        key="2"
+        key="0"
         lastIndex={2}
       />
     </Component>
@@ -230,18 +230,18 @@ exports[`FighterList renders with three items 1`] = `
       />
     </Component>
     <Component
-      key="0"
+      key="2"
     >
       <Styled(Fighter)
         index={2}
         item={
           Object {
-            "id": 0,
-            "initiative": 0,
-            "name": "Item: 0",
+            "id": 2,
+            "initiative": 2,
+            "name": "Item: 2",
           }
         }
-        key="0"
+        key="2"
         lastIndex={2}
       />
     </Component>
@@ -266,26 +266,10 @@ exports[`FighterList renders with two items 1`] = `
       />
     </Component>
     <Component
-      key="1"
-    >
-      <Styled(Fighter)
-        index={1}
-        item={
-          Object {
-            "id": 1,
-            "initiative": 1,
-            "name": "Item: 1",
-          }
-        }
-        key="1"
-        lastIndex={2}
-      />
-    </Component>
-    <Component
       key="0"
     >
       <Styled(Fighter)
-        index={2}
+        index={1}
         item={
           Object {
             "id": 0,
@@ -294,6 +278,22 @@ exports[`FighterList renders with two items 1`] = `
           }
         }
         key="0"
+        lastIndex={2}
+      />
+    </Component>
+    <Component
+      key="1"
+    >
+      <Styled(Fighter)
+        index={2}
+        item={
+          Object {
+            "id": 1,
+            "initiative": 1,
+            "name": "Item: 1",
+          }
+        }
+        key="1"
         lastIndex={2}
       />
     </Component>
