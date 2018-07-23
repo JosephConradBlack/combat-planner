@@ -6,11 +6,6 @@ exports[`Banner renders 1`] = `
   textAlign="center"
   vertical={true}
 >
-  <styled.div>
-    <styled.div
-      src="hero.jpg"
-    />
-  </styled.div>
   <Styled(Container)>
     <Styled(Header)
       as="h1"
