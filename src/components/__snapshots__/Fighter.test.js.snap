@@ -2,8 +2,7 @@
 
 exports[`Fighter renders with fighter 1`] = `
 <Segment
-  color=""
-  placeholder={false}
+  color={null}
 >
   <Item>
     <ItemContent>
@@ -18,8 +17,7 @@ exports[`Fighter renders with fighter 1`] = `
 
 exports[`Fighter renders with no props 1`] = `
 <Segment
-  color=""
-  placeholder={true}
+  color={null}
 >
   <Item>
     <ItemContent>
