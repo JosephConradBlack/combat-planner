@@ -27,9 +27,3 @@ To get it running on your machine simply run the commands below.
 ### Licence
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-static onlyMobile = { minWidth: 320, maxWidth: 767 }
-static onlyTablet = { minWidth: 768, maxWidth: 991 }
-static onlyComputer = { minWidth: 992 }
-static onlyLargeScreen = { minWidth: 1200, maxWidth: 1919 }
-static onlyWidescreen = { minWidth: 1920 }
