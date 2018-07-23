@@ -124,6 +124,7 @@ class FighterEditableForm extends Component {
               label="Armor"
               placeholder="18"
               name="armor"
+              value={this.state.armor}
               onChange={this.handleChange}
             />
           </Form.Group>

@@ -66,6 +66,7 @@ exports[`FighterEditable renders with all required props 1`] = `
         onChange={[Function]}
         placeholder="18"
         type="number"
+        value=""
       />
     </FormGroup>
     <Checkbox
