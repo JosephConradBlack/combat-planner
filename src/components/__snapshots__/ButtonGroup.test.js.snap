@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup renders with empty items array 1`] = `
+<Styled(SegmentGroup)>
+  <PoseGroup
+    enterPose="enter"
+    exitPose="exit"
+    flipMove={true}
+    preEnterPose="exit"
+    singleChildOnly={false}
+  >
+    <Component
+      key="0"
+    >
+      <Styled(Fighter)
+        key="0"
+      />
+    </Component>
+    <Component
+      key="1"
+    >
+      <Styled(Fighter)
+        key="1"
+      />
+    </Component>
+    <Component
+      key="2"
+    >
+      <Styled(Fighter)
+        key="2"
+      />
+    </Component>
+  </PoseGroup>
+</Styled(SegmentGroup)>
+`;
+
+exports[`ButtonGroup renders with no props 1`] = `
+<Styled(SegmentGroup)>
+  <PoseGroup
+    enterPose="enter"
+    exitPose="exit"
+    flipMove={true}
+    preEnterPose="exit"
+    singleChildOnly={false}
+  >
+    <Component
+      key="0"
+    >
+      <Styled(Fighter)
+        key="0"
+      />
+    </Component>
+    <Component
+      key="1"
+    >
+      <Styled(Fighter)
+        key="1"
+      />
+    </Component>
+    <Component
+      key="2"
+    >
+      <Styled(Fighter)
+        key="2"
+      />
+    </Component>
+  </PoseGroup>
+</Styled(SegmentGroup)>
+`;
+
+exports[`ButtonGroup renders with one items  1`] = `
+<Styled(SegmentGroup)>
+  <PoseGroup
+    enterPose="enter"
+    exitPose="exit"
+    flipMove={true}
+    preEnterPose="exit"
+    singleChildOnly={false}
+  >
+    <Component
+      key="0"
+    >
+      <Styled(Fighter)
+        key="0"
+      />
+    </Component>
+    <Component
+      key="1"
+    >
+      <Styled(Fighter)
+        key="1"
+      />
+    </Component>
+    <Component>
+      <Styled(Fighter)
+        index={2}
+        item={Object {}}
+        lastIndex={2}
+      />
+    </Component>
+  </PoseGroup>
+</Styled(SegmentGroup)>
+`;

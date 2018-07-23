@@ -7,6 +7,8 @@ exports[`CombatPlannerPage renders  1`] = `
     basic={true}
   >
     <Styled(Container)>
+      <ButtonGroup />
+      <Divider />
       <FighterList
         items={Array []}
       />

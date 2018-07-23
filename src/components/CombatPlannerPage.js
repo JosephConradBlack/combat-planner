@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, Segment, Button } from 'semantic-ui-react';
+import { Container, Segment, Divider } from 'semantic-ui-react';
 
 import Banner from './Banner';
 import FighterList from './FighterList';
+import ButtonGroup from './ButtonGroup';
 
 import FighterEditableFormContainer from '../containers/FighterEditableFormContainer';
 
@@ -25,6 +26,8 @@ const CombatPlannerPage = ({ items, onFighterUpdate }) => (
     <Banner />
     <StyledSegment basic>
       <StyledContainer>
+        <ButtonGroup />
+        <Divider />
         <FighterList items={items} onFighterUpdate={onFighterUpdate} />
         <FighterEditableFormContainer />
       </StyledContainer>

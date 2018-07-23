@@ -8,6 +8,12 @@ import Fighter from '../components/Fighter';
 import FighterIcon from '../components/FighterIcon';
 import TextIcon from '../components/TextIcon';
 import NounIcon from '../components/NounIcon';
+import ButtonGroup from '../components/ButtonGroup';
+
+storiesOf('ButtonGroup', module)
+  .add('with no props', () => <ButtonGroup />)
+  .add('with empty items array', () => <ButtonGroup items={[]} />)
+  .add('with one item', () => <ButtonGroup items={[{ id: 'id' }]} />);
 
 storiesOf('FighterList', module)
   .add('with no items', () => <FighterList items={[]} />)
