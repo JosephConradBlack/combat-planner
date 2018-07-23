@@ -8,8 +8,6 @@ import _ from 'underscore';
 
 import Fighter from './Fighter';
 
-const MAX_INT = -9007199254740991;
-
 const StyledSegmentGroup = styled(Segment.Group)`
   &&& {
     margin-bottom: 30px;

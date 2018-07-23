@@ -1,4 +1,4 @@
-import actions, { nextFighter } from '../actions/fighterActions';
+import actions from '../actions/fighterActions';
 import reducer from './fighterReducer';
 
 describe('fighter reducer', () => {
