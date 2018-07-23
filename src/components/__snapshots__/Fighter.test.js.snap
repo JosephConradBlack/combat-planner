@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Fighter renders with fighter 1`] = `
-<Segment>
+<Segment
+  color=""
+  placeholder={false}
+>
   <Item>
     <ItemContent>
       <ItemExtra />
@@ -14,7 +17,10 @@ exports[`Fighter renders with fighter 1`] = `
 `;
 
 exports[`Fighter renders with no props 1`] = `
-<Segment>
+<Segment
+  color=""
+  placeholder={true}
+>
   <Item>
     <ItemContent>
       <ItemExtra>
