@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { Segment, Item, Header, Image, Responsive } from 'semantic-ui-react';
 
 import FighterIcon from './FighterIcon';
@@ -111,9 +111,7 @@ const Fighter = class extends React.Component {
     return (
       <Segment
         className={className}
-        index={index}
-        placeholder={!item}
-        color={index === 0 && item ? 'orange' : ''}
+        color={index === 0 && item ? 'orange' : null}
       >
         <Item>
           {item ? this.getFighter(index, item) : this.getEmptyFighter()}
