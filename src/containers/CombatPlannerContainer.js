@@ -1,37 +1,23 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Container, Segment } from 'semantic-ui-react';
+import { connect } from 'react-redux';
 
-import Banner from '../components/Banner';
+import CombatPlannerPage from '../components/CombatPlannerPage';
 
-import FighterEditableFormContainer from './FighterEditableFormContainer';
-import FighterListContainer from './FighterListContainer';
+import { editFighter } from '../actions/fighterActions';
+import { getFighters } from '../selectors/fighterSelectors';
 
-const StyledSegment = styled(Segment)`
-  &&& {
-    background-color: white;
-  }
-`;
-
-const StyledContainer = styled(Container)`
-  &&& {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-`;
-
-const CombatPlannerContainer = () => {
-  return (
-    <div>
-      <Banner />
-      <StyledSegment basic>
-        <StyledContainer>
-          <FighterListContainer />
-          <FighterEditableFormContainer />
-        </StyledContainer>
-      </StyledSegment>
-    </div>
-  );
+const mapStateToProps = state => {
+  return {
+    items: getFighters(state)
+  };
 };
+
+const mapDispatchToProps = {
+  onFighterUpdate: editFighter
+};
+
+const CombatPlannerContainer = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(CombatPlannerPage);
 
 export default CombatPlannerContainer;

@@ -1,13 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CombatPlannerContainer renders  1`] = `
+exports[`CombatPlannerPage renders  1`] = `
 <div>
   <Banner />
   <Styled(Segment)
     basic={true}
   >
     <Styled(Container)>
-      <Connect(FighterList) />
+      <FighterList
+        items={Array []}
+      />
       <Connect(FighterEditableForm) />
     </Styled(Container)>
   </Styled(Segment)>

@@ -3,11 +3,11 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 
-import CombatPlannerContainer from './CombatPlannerContainer';
+import CombatPlannerPage from './CombatPlannerPage';
 
-describe('CombatPlannerContainer', () => {
+describe('CombatPlannerPage', () => {
   it('renders ', () => {
-    const component = shallow(<CombatPlannerContainer />);
+    const component = shallow(<CombatPlannerPage />);
 
     expect(toJson(component)).toMatchSnapshot();
   });

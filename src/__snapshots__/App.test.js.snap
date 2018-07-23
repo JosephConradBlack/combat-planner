@@ -17,7 +17,7 @@ exports[`renders without crashing 1`] = `
       }
     }
   >
-    <CombatPlannerContainer />
+    <Connect(CombatPlannerPage) />
   </ThemeProvider>
 </div>
 `;
