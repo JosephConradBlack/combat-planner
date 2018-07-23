@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import { Container, Segment, Divider } from 'semantic-ui-react';
 
 import Banner from './Banner';
@@ -21,12 +22,21 @@ const StyledContainer = styled(Container)`
   }
 `;
 
-const CombatPlannerPage = ({ items, onFighterUpdate }) => (
+const CombatPlannerPage = ({
+  items,
+  onFighterUpdate,
+  onClearFighters,
+  onNextFighter
+}) => (
   <div>
     <Banner />
     <StyledSegment basic>
       <StyledContainer>
-        <ButtonGroup items={items} />
+        <ButtonGroup
+          items={items}
+          onClearFighters={onClearFighters}
+          onNextFighter={onNextFighter}
+        />
         <Divider />
         <FighterList items={items} onFighterUpdate={onFighterUpdate} />
         <FighterEditableFormContainer />
@@ -34,5 +44,11 @@ const CombatPlannerPage = ({ items, onFighterUpdate }) => (
     </StyledSegment>
   </div>
 );
+
+CombatPlannerPage.propTypes = {
+  items: PropTypes.array,
+  onClearFighters: PropTypes.func,
+  onNextFighter: PropTypes.func
+};
 
 export default CombatPlannerPage;

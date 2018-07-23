@@ -73,4 +73,27 @@ describe('fighter reducer', () => {
       }
     });
   });
+
+  it('should handle CLEAR_FIGHTERS', () => {
+    const id = 'fake-id';
+
+    const originalFighter = {
+      id: id,
+      name: 'Goblin 1',
+      health: 30
+    };
+
+    const defaultState = {
+      ids: [id],
+      fighters: {
+        [id]: originalFighter
+      }
+    };
+
+    const action = actions.clearFighters();
+    expect(reducer(defaultState, action)).toEqual({
+      ids: [],
+      fighters: {}
+    });
+  });
 });

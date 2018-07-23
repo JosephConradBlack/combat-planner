@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 
 import CombatPlannerPage from '../components/CombatPlannerPage';
 
-import { editFighter } from '../actions/fighterActions';
+import { editFighter, clearFighters } from '../actions/fighterActions';
 import { getFighters } from '../selectors/fighterSelectors';
 
 const mapStateToProps = state => {
@@ -12,7 +12,8 @@ const mapStateToProps = state => {
 };
 
 const mapDispatchToProps = {
-  onFighterUpdate: editFighter
+  onFighterUpdate: editFighter,
+  onClearFighters: clearFighters
 };
 
 const CombatPlannerContainer = connect(
