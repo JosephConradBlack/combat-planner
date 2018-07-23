@@ -61,7 +61,7 @@ const Fighter = class extends React.Component {
       <Item.Extra>
         {item.initiative && (
           <React.Fragment>
-            <NounIcon src="/icon_sword.svg" floated="left" />
+            <NounIcon src="icon_sword.svg" floated="left" />
             <Header floated="left">{item.initiative}</Header>
           </React.Fragment>
         )}
